@@ -550,6 +550,7 @@ footer {
   background-size: cover;
   background-position: center;
   height: 30vh;
+  margin-bottom: 32px;
 }
 #message .sign {
   margin-top: 32px;
