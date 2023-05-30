@@ -13,6 +13,7 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --greydark: #1E1E1E;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -330,6 +331,15 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5p {
+  margin: 0;
+  padding: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -360,3 +370,23 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--greydark);
+  color: white;
+}
+
+#f1 {
+  grid-area: f1;
+}
+
+#f2 {
+  grid-area: f2;
+}
+
+#f3 {
+  grid-area: f3;
+}
+
+#f4 {
+  grid-area: f4;
+}

@@ -7,7 +7,7 @@
       "uuidString" : "4E301350-858D-47A2-ADAA-59DBC03EF760"
     }
   ],
-  "creatorBuild" : "34472",
+  "creatorBuild" : "34484",
   "files" : {
     "\/Assets\/In-class-S23.fig" : {
       "cB" : 0,
@@ -15,6 +15,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/In-class-S23.fig",
+      "oF" : 0
+    },
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
       "oF" : 0
     },
     "\/deploy\/css\/styles.css" : {
@@ -28,6 +36,175 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/example\/1Smeg.jpg" : {
+      "ft" : 16384,
+      "iS" : 137092,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/1Smeg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/2Smeg.jpg" : {
+      "ft" : 16384,
+      "iS" : 136268,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/2Smeg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/3Smeg.jpg" : {
+      "ft" : 16384,
+      "iS" : 52975,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/3Smeg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/4Smeg.jpg" : {
+      "ft" : 16384,
+      "iS" : 58829,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/4Smeg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/5Smeg copy.png" : {
+      "ft" : 32768,
+      "iS" : 304713,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/5Smeg copy.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/5Smeg.jpg" : {
+      "ft" : 16384,
+      "iS" : 72148,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/5Smeg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/5Smeg.png" : {
+      "ft" : 32768,
+      "iS" : 255540,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/5Smeg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/6Smeg.jpg" : {
+      "ft" : 16384,
+      "iS" : 341193,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/6Smeg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/7Smeg.jpg" : {
+      "ft" : 16384,
+      "iS" : 166504,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/7Smeg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/8Smeg.jpg" : {
+      "ft" : 16384,
+      "iS" : 350475,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/8Smeg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/Blender.jpg" : {
+      "ft" : 16384,
+      "iS" : 14123,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/Blender.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/kettle.jpg" : {
+      "ft" : 16384,
+      "iS" : 16500,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/kettle.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/mixer.jpg" : {
+      "ft" : 16384,
+      "iS" : 117444,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/mixer.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -48,6 +225,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/thankyou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 0
+    },
     "\/dev\/checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -56,13 +241,29 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
+    "\/dev\/content\/message.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/message.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/review.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/review.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
+      "oA" : 1,
+      "oAP" : "\/deploy\/footer.html",
+      "oF" : 3
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -76,9 +277,9 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
@@ -252,6 +453,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/message.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/message.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1806,7 +2022,7 @@
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
@@ -1862,7 +2078,10 @@
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -1871,36 +2090,36 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
+    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
     "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
