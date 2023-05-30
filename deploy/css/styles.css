@@ -17,6 +17,8 @@ html {
   --blue: #CDDCE7;
   --bluedark: #9EB9CC;
   --yellow: #F9DB55;
+  --orange: #D1640E;
+  --grey: #D9D9D9;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -353,6 +355,9 @@ h1, h2, h3, h4, h5p {
   display: inline-block;
   transition: 0.25s;
   cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
 }
 .credit-button:hover {
   background-color: var(--blue);
@@ -365,6 +370,9 @@ h1, h2, h3, h4, h5p {
   display: inline-block;
   transition: 0.25s;
   cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
 }
 .apple-button:hover {
   background-color: black;
@@ -377,6 +385,9 @@ h1, h2, h3, h4, h5p {
   display: inline-block;
   transition: 0.25s;
   cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
 }
 .pal-button:hover {
   background-color: var(--yellow);
@@ -389,9 +400,24 @@ h1, h2, h3, h4, h5p {
   display: inline-block;
   transition: 0.25s;
   cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
 }
 .standard-button:hover {
   background-color: var(--bluedark);
+}
+
+.purchase-button {
+  background-color: var(--orange);
+  color: white;
+  padding: 8px 16px 8px 16px;
+  transition: 0.25s;
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+}
+.purchase-button:hover {
+  background-color: var(--orange);
 }
 
 /* =============
@@ -450,7 +476,6 @@ footer {
   grid-template-areas: "f1" "f2" "f3" "f4" "f5";
 }
 #payment button {
-  width: 100%;
   margin-top: 16px;
 }
 #payment input {
@@ -458,7 +483,17 @@ footer {
   margin-top: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  padding-left: 8px;
+  background-color: var(--grey);
+  color: black;
+}
+
+#payment2 {
+  margin-top: 32px;
+  background-image: url("../img/example/7Smeg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  color: white;
 }
 
 #message {
