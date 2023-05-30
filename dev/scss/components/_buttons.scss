@@ -12,6 +12,9 @@
     border-radius: 20px;
     width: 100%;
     box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+
+margin-top: 16px;
+
     &:hover{
         background-color: var(--blue);
     }
@@ -27,6 +30,9 @@
     border-radius: 20px;
     width: 100%;
     box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+
+margin-top: 16px;
+
     &:hover{
         background-color: black;
     }
@@ -42,6 +48,9 @@
     border-radius: 20px;
     width: 100%;
     box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+
+margin-top: 16px;
+
     &:hover{
         background-color: var(--yellow);
     }
@@ -57,12 +66,15 @@
     border-radius: 20px;
     width: 100%;
     box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+
+margin-top: 16px;
+
     &:hover{
         background-color: var(--bluedark);
     }
 }
 
-.purchase-button{
+.orange-button{
     background-color: var(--orange);
     color: white;
 padding: 8px 16px 8px 16px;
@@ -75,3 +87,12 @@ padding: 8px 16px 8px 16px;
         background-color: var(--orange);
     }
 }
+
+input{
+    width:100%;
+    margin-top: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: var(--grey);
+
+    }

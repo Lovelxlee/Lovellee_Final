@@ -333,6 +333,14 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -358,6 +366,7 @@ h1, h2, h3, h4, h5p {
   border-radius: 20px;
   width: 100%;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+  margin-top: 16px;
 }
 .credit-button:hover {
   background-color: var(--blue);
@@ -373,6 +382,7 @@ h1, h2, h3, h4, h5p {
   border-radius: 20px;
   width: 100%;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+  margin-top: 16px;
 }
 .apple-button:hover {
   background-color: black;
@@ -388,6 +398,7 @@ h1, h2, h3, h4, h5p {
   border-radius: 20px;
   width: 100%;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+  margin-top: 16px;
 }
 .pal-button:hover {
   background-color: var(--yellow);
@@ -403,12 +414,13 @@ h1, h2, h3, h4, h5p {
   border-radius: 20px;
   width: 100%;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+  margin-top: 16px;
 }
 .standard-button:hover {
   background-color: var(--bluedark);
 }
 
-.purchase-button {
+.orange-button {
   background-color: var(--orange);
   color: white;
   padding: 8px 16px 8px 16px;
@@ -416,8 +428,16 @@ h1, h2, h3, h4, h5p {
   cursor: pointer;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
 }
-.purchase-button:hover {
+.orange-button:hover {
   background-color: var(--orange);
+}
+
+input {
+  width: 100%;
+  margin-top: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: var(--grey);
 }
 
 /* =============
@@ -475,28 +495,57 @@ footer {
   gap: 32px;
   grid-template-areas: "f1" "f2" "f3" "f4" "f5";
 }
-#payment button {
-  margin-top: 16px;
-}
-#payment input {
-  width: 100%;
-  margin-top: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background-color: var(--grey);
-  color: black;
-}
 
 #payment2 {
   margin-top: 32px;
+  padding-top: 32px;
+  padding-left: 16px;
   background-image: url("../img/example/7Smeg.jpg");
   background-size: cover;
   background-position: center;
   height: 40vh;
   color: white;
 }
+#payment2 .part1 {
+  background-color: white;
+  margin: 16px;
+  border-radius: 20px;
+  padding: 16px;
+  color: black;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: word price;
+}
+#payment2 .part2 {
+  background-color: white;
+  margin: 16px;
+  border-radius: 20px;
+  padding: 16px;
+  color: black;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: word price;
+}
+#payment2 .purchase-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #message {
+  padding-top: 96px;
+  padding-left: 16px;
+  padding-right: 16px;
   background-color: black;
   color: white;
+  text-align: center;
+}
+#message > div {
+  background-image: url("../img/example/7Smeg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+}
+#message li {
+  size-adjust: 80px;
 }

@@ -1,4 +1,19 @@
 #message{
+    padding-top:96px;
+    padding-left: 16px;
+    padding-right: 16px;
 background-color: black;
 color: white;
+text-align: center;
+>div{
+background-image:  url("../img/example/7Smeg.jpg");
+background-size: cover;
+background-position: center;
+height: 10vh;
+}
+li{
+size-adjust: 80px;
+
+
+}
 }
