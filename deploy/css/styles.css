@@ -14,6 +14,9 @@ html {
   --black: #000000;
   --white: #ffffff;
   --greydark: #1E1E1E;
+  --blue: #CDDCE7;
+  --bluedark: #9EB9CC;
+  --yellow: #F9DB55;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -343,6 +346,54 @@ h1, h2, h3, h4, h5p {
 /* =============
     Buttons
 ============= */
+.credit-button {
+  background-color: var(--blue);
+  color: black;
+  padding: 8px 16px;
+  display: inline-block;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.credit-button:hover {
+  background-color: var(--blue);
+}
+
+.apple-button {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.apple-button:hover {
+  background-color: black;
+}
+
+.pal-button {
+  background-color: var(--yellow);
+  color: black;
+  padding: 8px 16px;
+  display: inline-block;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.pal-button:hover {
+  background-color: var(--yellow);
+}
+
+.standard-button {
+  background-color: var(--bluedark);
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.standard-button:hover {
+  background-color: var(--bluedark);
+}
+
 /* =============
     Forms
 ============= */
@@ -389,4 +440,28 @@ footer {
 
 #f4 {
   grid-area: f4;
+}
+
+#payment {
+  margin-left: 16px;
+  margin-right: 16px;
+  display: grid;
+  gap: 32px;
+  grid-template-areas: "f1" "f2" "f3" "f4" "f5";
+}
+#payment button {
+  width: 100%;
+  margin-top: 16px;
+}
+#payment input {
+  width: 100%;
+  margin-top: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+
+#message {
+  background-color: black;
+  color: white;
 }

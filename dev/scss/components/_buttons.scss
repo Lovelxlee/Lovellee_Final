@@ -1,3 +1,55 @@
 /* =============
     Buttons
 ============= */
+
+.credit-button{
+    background-color: var(--blue);
+    color: black;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: 0.25s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--blue);
+    }
+}
+
+.apple-button{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: 0.25s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: black;
+    }
+}
+
+.pal-button{
+    background-color: var(--yellow);
+    color: black;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: 0.25s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--yellow);
+    }
+}
+
+.standard-button{
+    background-color: var(--bluedark);
+    color: white;
+    padding: 8px 16px;
+    display: inline-block;
+    transition: 0.25s;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--bluedark);
+    }
+}

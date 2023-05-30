@@ -249,11 +249,19 @@
       "oAP" : "\/dev\/content\/message.html",
       "oF" : 1
     },
-    "\/dev\/content\/review.kit" : {
+    "\/dev\/content\/payment.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
+      "oAP" : "\/dev\/content\/payment.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/review.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/review.html",
       "oF" : 0
     },
@@ -458,7 +466,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/message.scss" : {
+    "\/dev\/scss\/sections\/_message.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -466,9 +474,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/message.css",
-      "oF" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_message.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_payment.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_payment.css",
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
