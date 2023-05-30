@@ -1,0 +1,87 @@
+#review{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 32px;
+
+.r{
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 32px; 
+    color: black;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: title date;
+
+
+    .date{
+
+        text-align: right;
+    }
+
+}
+.r1{
+
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 32px; 
+    color: black;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: words prices;
+
+
+    .prices{
+
+        text-align: right;
+    }
+
+}
+.r2{
+
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 32px; 
+    color: black;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: card number;
+
+
+    .number{
+
+        text-align: right;
+    }
+
+}
+.r3{
+margin-top: 8px;
+margin-bottom: 32px;
+
+
+
+}
+
+.divide-line{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 32px;
+
+}
+.r4{
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 32px; 
+    color: black;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: r4a r4b;
+
+
+    .r4b{
+
+        text-align: right;
+    }
+
+}
+}

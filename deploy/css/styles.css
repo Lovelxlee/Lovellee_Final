@@ -421,6 +421,7 @@ h1, h2, h3, h4, h5p {
 }
 
 .orange-button {
+  margin-top: 24px;
   background-color: var(--orange);
   color: white;
   padding: 8px 16px 8px 16px;
@@ -536,16 +537,84 @@ footer {
   padding-top: 96px;
   padding-left: 16px;
   padding-right: 16px;
+  padding-bottom: 32px;
   background-color: black;
   color: white;
   text-align: center;
 }
-#message > div {
+#message .thank {
+  margin-top: 32px;
+}
+#message .paragraph {
   background-image: url("../img/example/7Smeg.jpg");
   background-size: cover;
   background-position: center;
-  height: 10vh;
+  height: 30vh;
 }
-#message li {
-  size-adjust: 80px;
+#message .sign {
+  margin-top: 32px;
+}
+
+#review {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 32px;
+}
+#review .r {
+  background-color: white;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  color: black;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: title date;
+}
+#review .r .date {
+  text-align: right;
+}
+#review .r1 {
+  background-color: white;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  color: black;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: words prices;
+}
+#review .r1 .prices {
+  text-align: right;
+}
+#review .r2 {
+  background-color: white;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  color: black;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: card number;
+}
+#review .r2 .number {
+  text-align: right;
+}
+#review .r3 {
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+#review .divide-line {
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 32px;
+}
+#review .r4 {
+  background-color: white;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  color: black;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: r4a r4b;
+}
+#review .r4 .r4b {
+  text-align: right;
 }
