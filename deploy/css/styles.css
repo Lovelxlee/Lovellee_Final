@@ -543,6 +543,9 @@ header #logo-nav {
 header #logo-nav #logo-container {
   grid-area: logo;
 }
+header #logo-nav #logo-container img {
+  width: 150px;
+}
 header #logo-nav #burger-container {
   grid-area: burger;
   display: flex;

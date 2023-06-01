@@ -270,6 +270,14 @@
       "oAP" : "\/dev\/content\/payment.html",
       "oF" : 1
     },
+    "\/dev\/content\/payment2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/payment2.html",
+      "oF" : 1
+    },
     "\/dev\/content\/review.kit" : {
       "cB" : 0,
       "ft" : 2048,
