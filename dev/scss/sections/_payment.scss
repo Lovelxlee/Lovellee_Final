@@ -13,4 +13,88 @@
         "f5";
 
 
+
+}
+
+#payment2{
+        margin-top:32px;
+        padding-top:32px;
+        padding-left: 16px;
+        background-image: url("../img/example/7Smeg.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 40vh;
+        color: white;
+        background-color: black;
+        
+        .part1{
+        background-color: white;
+        margin:16px;
+        border-radius: 20px;
+        padding:16px;
+        color: black;
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-areas: word price;
+        
+        
+        
+        
+        }
+        .part2{
+            background-color: white;
+            margin:16px;
+            border-radius: 20px;
+            padding:16px;
+            color: black;
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: word price;
+        
+            }
+            .button-container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                
+                }
+            .purchase-button{
+                display: flex;
+                align-items: center;
+        
+                    }
+        
+        
+                }
+#desktop-payment{
+        @include lg{
+                background-image: url("../img/example/7Smeg.jpg");
+                background-size: cover;
+                background-position: center;
+                height: 200vh;
+        
+display: grid;
+padding-left: 24px;
+padding-right: 24px;
+grid-template-columns: repeat(2,1fr);
+grid-template-areas: 
+"p1 p2";
+
+.p1{
+
+        background-color: white;
+}
+
+.p2{
+
+        background-image: none;
+}
+
+        }
+
+
+
+
+
 }

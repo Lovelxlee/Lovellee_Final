@@ -682,7 +682,6 @@ footer #f4 {
   margin-top: 32px;
   padding-top: 32px;
   padding-left: 16px;
-  padding-bottom: 100px;
   background-image: url("../img/example/7Smeg.jpg");
   background-size: cover;
   background-position: center;
@@ -710,10 +709,34 @@ footer #f4 {
   grid-template-columns: 50% auto;
   grid-template-areas: word price;
 }
-#payment2 .purchase-button {
+#payment2 .button-container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#payment2 .purchase-button {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  #desktop-payment {
+    background-image: url("../img/example/7Smeg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    display: grid;
+    padding-left: 24px;
+    padding-right: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "p1 p2";
+  }
+  #desktop-payment .p1 {
+    background-color: white;
+  }
+  #desktop-payment .p2 {
+    background-image: none;
+  }
 }
 
 #message {
