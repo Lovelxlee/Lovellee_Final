@@ -648,6 +648,12 @@ footer #f2 {
 footer #f2 li {
   margin-bottom: 24px;
 }
+@media (min-width: 1024px) {
+  footer #f2 li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
 footer #f3 {
   grid-area: f3;
   margin-top: 32px;
@@ -725,11 +731,12 @@ footer #f4 {
     background-size: cover;
     background-position: center;
     height: 200vh;
+    grid-area: desktop-payment;
     display: grid;
     padding-left: 24px;
     padding-right: 24px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "p1 p2";
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: ". p2 p2 p2 p2 p2 p2 . p1 p1 p1 p1";
   }
   #desktop-payment .p1 {
     background-color: white;
@@ -759,8 +766,29 @@ footer #f4 {
   background-repeat: no-repeat;
   background-position: center center;
 }
+@media (min-width: 1024px) {
+  #message .paragraph {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
 #message .sign {
   margin-top: 32px;
+}
+@media (min-width: 1024px) {
+  #message {
+    display: grid;
+    padding-left: 24px;
+    padding-right: 24px;
+    grid-template-columns: 60% auto;
+    grid-template-areas: "m1 m2";
+  }
+  #message .m1 {
+    grid-area: m1;
+  }
+  #message .m2 {
+    grid-area: m2;
+  }
 }
 
 #review {
@@ -825,4 +853,19 @@ footer #f4 {
 }
 #review .r4 .r4b {
   text-align: right;
+}
+@media (min-width: 1024px) {
+  #review {
+    grid-area: review;
+    margin-left: 373px;
+    margin-right: 373px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: ". review review .";
+  }
+  #review .m1 {
+    grid-area: m1;
+  }
+  #review .m2 {
+    grid-area: m2;
+  }
 }

@@ -20,12 +20,25 @@ a{
     grid-area: f2;
 li{
     margin-bottom:24px;
+
+
+    @include lg{
+        display: inline-block;
+        margin-right: 10px;
+
+    }
 }
+
+
+
+
+
 }
 #f3{
     grid-area: f3;
     margin-top:32px;
     margin-bottom:32px;
+    
     li{
         display: inline-block;
         margin-right: 10px;
@@ -36,10 +49,20 @@ li{
 
             &:hover, &:active{
                 color: var(--orange);
+
+                
             }
-    }}
+            
+    }
+    
+}
 }
 #f4{
     grid-area: f4;
     padding-bottom:96px; 
-}}
+}
+
+
+
+
+}
