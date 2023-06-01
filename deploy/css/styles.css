@@ -462,9 +462,169 @@ textarea {
 /* =============
     Navigation
 ============= */
+html {
+  scroll-behavior: smooth;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+.show-menu {
+  display: block !important;
+}
+
+nav {
+  text-align: right;
+  padding-top: 48px;
+  display: none;
+}
+@media (min-width: 1024px) {
+  nav {
+    display: block;
+    padding-top: 0px;
+  }
+}
+@media (min-width: 1024px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+  }
+}
+nav ul li {
+  margin-bottom: 24px;
+}
+@media (min-width: 1024px) {
+  nav ul li {
+    margin-bottom: 0;
+  }
+}
+nav ul li a:link, nav ul li a:visited {
+  color: var(--white);
+  font-size: 1.875rem;
+  padding: 24px 0;
+  transition: 0.25s;
+}
+@media (min-width: 1024px) {
+  nav ul li a:link, nav ul li a:visited {
+    padding: 0px 0px 0px 24px;
+    font-size: 1.5625rem;
+    font-weight: 300;
+  }
+}
+nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+  color: var(--orange);
+}
+
 /* =============
     Header
 ============= */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 500;
+}
+header #logo-nav {
+  background-color: var(--greydark);
+  padding: 24px 16px;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "nav nav";
+}
+@media (min-width: 1024px) {
+  header #logo-nav {
+    grid-template-areas: "logo nav";
+  }
+}
+header #logo-nav #logo-container {
+  grid-area: logo;
+}
+header #logo-nav #burger-container {
+  grid-area: burger;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  header #logo-nav #burger-container {
+    display: none;
+  }
+}
+header #logo-nav #burger-container button {
+  border: none;
+  background-color: transparent;
+  color: var(--white);
+  font-size: 3.125rem;
+  margin: 0;
+  padding: 0;
+}
+header #logo-nav nav {
+  grid-area: nav;
+}
+header #search {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
+  background-color: var(--greydark);
+  padding: 16px 0;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+}
+@media (min-width: 768px) {
+  header #search {
+    padding: 24px 0;
+  }
+}
+@media (min-width: 1440px) {
+  header #search {
+    grid-template-columns: auto 1200px auto;
+    padding: 30px 0;
+  }
+}
+header #search > div {
+  grid-area: search;
+}
+header #search > div form {
+  display: flex;
+}
+header #search > div form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--blueLight);
+  border-radius: 0 !important;
+  background-color: white;
+  margin-right: 8px;
+}
+@media (min-width: 768px) {
+  header #search > div form input {
+    font-size: 1.875rem;
+    font-weight: 300;
+  }
+}
+@media (min-width: 1200px) {
+  header #search > div form input {
+    font-size: 2.1875rem;
+  }
+}
+header #search > div form button {
+  background-color: var(--orange);
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 1.875rem;
+  color: var(--blueDark);
+  cursor: pointer;
+  transition: 0.25s;
+}
+header #search > div form button:hover {
+  background-color: var(--yellowDark);
+  color: var(--white);
+}
+
 /* =============
     Footer
 ============= */
@@ -497,6 +657,14 @@ footer #f3 li {
   display: inline-block;
   margin-right: 10px;
 }
+footer #f3 li a:link, footer #f3 li a:visited {
+  color: var(--orange);
+  font-size: 1.875rem;
+  transition: 0.25s;
+}
+footer #f3 li a:link:hover, footer #f3 li a:link:active, footer #f3 li a:visited:hover, footer #f3 li a:visited:active {
+  color: var(--orange);
+}
 footer #f4 {
   grid-area: f4;
   padding-bottom: 96px;
@@ -514,11 +682,13 @@ footer #f4 {
   margin-top: 32px;
   padding-top: 32px;
   padding-left: 16px;
+  padding-bottom: 100px;
   background-image: url("../img/example/7Smeg.jpg");
   background-size: cover;
   background-position: center;
   height: 40vh;
   color: white;
+  background-color: black;
 }
 #payment2 .part1 {
   background-color: white;
@@ -561,9 +731,10 @@ footer #f4 {
 #message .paragraph {
   background-image: url("../img/example/7Smeg.jpg");
   background-size: cover;
-  background-position: center;
   height: 30vh;
   margin-bottom: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 #message .sign {
   margin-top: 32px;
