@@ -708,6 +708,9 @@ footer #f4 {
   grid-template-columns: 50% auto;
   grid-template-areas: word price;
 }
+#payment2 .part1 .summary {
+  text-align: right;
+}
 #payment2 .part2 {
   background-color: white;
   margin: 16px;
@@ -717,6 +720,9 @@ footer #f4 {
   display: grid;
   grid-template-columns: 50% auto;
   grid-template-areas: word price;
+}
+#payment2 .part2 .price {
+  text-align: right;
 }
 #payment2 .button-container {
   display: flex;
