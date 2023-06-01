@@ -475,7 +475,7 @@ a:link, a:visited {
 }
 
 nav {
-  text-align: right;
+  text-align: center;
   padding-top: 48px;
   display: none;
 }
@@ -582,12 +582,6 @@ header #search {
     padding: 24px 0;
   }
 }
-@media (min-width: 1440px) {
-  header #search {
-    grid-template-columns: auto 1200px auto;
-    padding: 30px 0;
-  }
-}
 header #search > div {
   grid-area: search;
 }
@@ -680,11 +674,17 @@ footer #f4 {
 }
 
 #payment {
+  margin-top: 150px;
   margin-left: 16px;
   margin-right: 16px;
   display: grid;
   gap: 32px;
   grid-template-areas: "f1" "f2" "f3" "f4" "f5";
+}
+@media (min-width: 1024px) {
+  #payment {
+    margin-top: 300px;
+  }
 }
 
 #payment2 {
@@ -756,7 +756,7 @@ footer #f4 {
 }
 
 #message {
-  padding-top: 96px;
+  padding-top: 150px;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 32px;
@@ -768,6 +768,8 @@ footer #f4 {
   margin-top: 32px;
 }
 #message .paragraph {
+  padding-left: 20%;
+  padding-right: 20%;
   background-image: url("../img/example/7Smeg.jpg");
   background-size: cover;
   height: 30vh;
@@ -777,8 +779,8 @@ footer #f4 {
 }
 @media (min-width: 1024px) {
   #message .paragraph {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 30%;
+    padding-right: 30%;
   }
 }
 #message .sign {

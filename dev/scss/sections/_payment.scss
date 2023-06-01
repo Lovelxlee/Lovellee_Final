@@ -1,5 +1,5 @@
 #payment{
-
+margin-top:150px;
         margin-left: 16px;
         margin-right: 16px;
         display: grid;
@@ -12,7 +12,10 @@
         "f4"
         "f5";
 
+@include lg{
 
+        margin-top:300px;
+}
 
 }
 

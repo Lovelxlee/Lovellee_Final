@@ -1,29 +1,30 @@
 #message{
-    padding-top:96px;
+    padding-top:150px;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 32px;
 background-color: black;
 color: white;
+
 text-align: center;
 
 .thank{
     margin-top:32px;
 }
 .paragraph{
-
-
+padding-left: 20%;
+padding-right: 20%;
         background-image:  url("../img/example/7Smeg.jpg");
         background-size: cover;
         height: 30vh;
         margin-bottom: 32px;
         background-repeat: no-repeat;
         background-position: center center;
+
+
 @include lg{
-padding-left: 250px;
-padding-right: 250px;
-
-
+    padding-left: 30%;
+    padding-right: 30%;
 
 }
 
