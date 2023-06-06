@@ -1,7 +1,12 @@
 #features{
 // text-align: center;
 padding-bottom: 32px;
-
+margin-right: 16px;
+margin-left: 16px;
+.title{
+    text-align: center;
+    margin-bottom: 32px;
+}
 .divide-line{
     height: 1px;
     background-color: black;
@@ -14,7 +19,7 @@ padding-bottom: 32px;
 ul{
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid blue;
+
     
     .feature-card{
         display: flex;
@@ -34,7 +39,8 @@ ul{
                     li{
                         display: flex;
                         width: 100%;
-                        border: 1px solid red;
+                        margin-top: 8px;
+
                     }
         
                     .text-left{

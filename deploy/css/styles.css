@@ -1012,6 +1012,12 @@ footer #f4 {
 
 #features {
   padding-bottom: 32px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+#features .title {
+  text-align: center;
+  margin-bottom: 32px;
 }
 #features .divide-line {
   height: 1px;
@@ -1023,7 +1029,6 @@ footer #f4 {
 #features ul {
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid blue;
 }
 #features ul .feature-card {
   display: flex;
@@ -1039,7 +1044,7 @@ footer #f4 {
 #features ul .feature-card aside ul li {
   display: flex;
   width: 100%;
-  border: 1px solid red;
+  margin-top: 8px;
 }
 #features ul .feature-card aside ul .text-left {
   margin-left: auto;
