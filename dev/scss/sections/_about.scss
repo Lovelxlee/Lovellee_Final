@@ -22,6 +22,14 @@
             height: 30vh;
             background-repeat: no-repeat;
             background-position: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img{
+                width:120px;
+        
+            }
         }
 
 

@@ -1,8 +1,7 @@
 
 #reviews{
 text-align: center;
-margin-right: 16px;
-margin-left: 16px;
+
 
 h2{
     margin-top: 8px;
@@ -12,6 +11,8 @@ h2{
 p{
 
     margin-top: 8px;
+    margin-right: 16px;
+margin-left: 16px;
 }
 img{
     height: 49px;
@@ -22,5 +23,12 @@ li{
     display: inline-block;
     margin-top:32px;
 }
+.divide-line{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 32px;
 
+}
 }
