@@ -1,0 +1,98 @@
+#color{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 32px;
+    h4{
+        margin-right:16px;
+    }
+img{
+    width: 26px;
+}
+ul{
+    width: 100%;
+    box-sizing: border-box;
+
+    
+    .circle{
+        display: flex;
+
+        margin-top: 32px;
+
+
+            aside{
+                width: 100%; 
+                box-sizing: border-box;
+                
+                ul{
+      
+                    display: grid;
+                    grid-template-columns: repeat(6, 1fr);
+                    grid-template-areas: 
+                    "e1 e2 e3 e4 e5 e6"
+                    "e7 e8 e9 e10 e11 e12"
+                    "e13 e14 e15 e16 . ."
+                    ;
+
+                    li{
+
+
+
+
+                        .e1{
+                            grid-area: e1;
+                        }
+                        .e2{
+                            grid-area: e2;
+                        }
+                        .e3{
+                            grid-area: e3;
+                        }
+                        .e4{
+                            grid-area: e4;
+                        }
+                        .e5{
+                            grid-area: e5;
+                        }
+                        .e6{
+                            grid-area: e6;
+                        }
+                        .e7{
+                            grid-area: e7;
+                        }
+                        .e8{
+                            grid-area: e8;
+                        }
+                        .e9{
+                            grid-area: e9;
+                        }
+                        .e10{
+                            grid-area: e10;
+                        }
+                        .e11{
+                            grid-area: e11;
+                        }
+                        .e12{
+                            grid-area: e12;
+                        }
+                        .e13{
+                            grid-area: e13;
+                        }
+                        .e14{
+                            grid-area: e14;
+                        }
+                        .e15{
+                            grid-area: e15;
+                        }
+                        .e16{
+                            grid-area: e16;
+                        }
+
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+}

@@ -1113,3 +1113,80 @@ footer #f4 {
   display: flex;
   align-items: center;
 }
+
+#color {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+}
+#color h4 {
+  margin-right: 16px;
+}
+#color img {
+  width: 26px;
+}
+#color ul {
+  width: 100%;
+  box-sizing: border-box;
+}
+#color ul .circle {
+  display: flex;
+  margin-top: 32px;
+}
+#color ul .circle aside {
+  width: 100%;
+  box-sizing: border-box;
+}
+#color ul .circle aside ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "e1 e2 e3 e4 e5 e6" "e7 e8 e9 e10 e11 e12" "e13 e14 e15 e16 . .";
+}
+#color ul .circle aside ul li .e1 {
+  grid-area: e1;
+}
+#color ul .circle aside ul li .e2 {
+  grid-area: e2;
+}
+#color ul .circle aside ul li .e3 {
+  grid-area: e3;
+}
+#color ul .circle aside ul li .e4 {
+  grid-area: e4;
+}
+#color ul .circle aside ul li .e5 {
+  grid-area: e5;
+}
+#color ul .circle aside ul li .e6 {
+  grid-area: e6;
+}
+#color ul .circle aside ul li .e7 {
+  grid-area: e7;
+}
+#color ul .circle aside ul li .e8 {
+  grid-area: e8;
+}
+#color ul .circle aside ul li .e9 {
+  grid-area: e9;
+}
+#color ul .circle aside ul li .e10 {
+  grid-area: e10;
+}
+#color ul .circle aside ul li .e11 {
+  grid-area: e11;
+}
+#color ul .circle aside ul li .e12 {
+  grid-area: e12;
+}
+#color ul .circle aside ul li .e13 {
+  grid-area: e13;
+}
+#color ul .circle aside ul li .e14 {
+  grid-area: e14;
+}
+#color ul .circle aside ul li .e15 {
+  grid-area: e15;
+}
+#color ul .circle aside ul li .e16 {
+  grid-area: e16;
+}
