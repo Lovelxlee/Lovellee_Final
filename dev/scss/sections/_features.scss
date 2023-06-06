@@ -1,0 +1,48 @@
+#features{
+text-align: center;
+padding-bottom: 32px;
+
+.divide-line{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 32px;
+
+}
+h1{
+margin-bottom: 32px;
+
+}
+
+.f1{
+grid-template-areas: ". f1 .";
+    ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "f1a ."
+        "f1b f1c";
+
+
+#f1a{
+    grid-area: f1a;
+    text-align: left;
+}
+#f1b{
+    grid-area: f1b;
+    text-align: left;
+}
+#f1c{
+    grid-area: f1c;
+    text-align: right;
+}
+
+
+
+
+
+    }
+
+}
+}

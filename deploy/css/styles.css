@@ -630,6 +630,9 @@ footer {
   color: white;
   text-align: center;
 }
+footer img {
+  width: 200px;
+}
 footer a {
   color: white;
   text-decoration: none;
@@ -791,6 +794,10 @@ footer #f4 {
   grid-template-rows: 50vh 75vh;
   grid-template-areas: "g1 g2" ". g3";
 }
+#gallery ul li {
+  background-position: center;
+  background-size: cover;
+}
 #gallery ul li #g1 {
   background-image: url("../img/example/3Smeg.jpg");
 }
@@ -814,12 +821,6 @@ footer #f4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 32px;
-}
-#description .divide-line {
-  height: 1px;
-  background-color: black;
-  width: 100%;
   margin-bottom: 32px;
 }
 
@@ -992,4 +993,54 @@ footer #f4 {
 
 #reviews {
   text-align: center;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+#reviews h2 {
+  margin-top: 8px;
+}
+#reviews p {
+  margin-top: 8px;
+}
+#reviews img {
+  height: 49px;
+}
+#reviews li {
+  display: inline-block;
+  margin-top: 32px;
+}
+
+#features {
+  text-align: center;
+  padding-bottom: 32px;
+}
+#features .divide-line {
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+#features h1 {
+  margin-bottom: 32px;
+}
+#features .f1 {
+  grid-template-areas: ". f1 .";
+}
+#features .f1 ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "f1a ." "f1b f1c";
+}
+#features .f1 ul #f1a {
+  grid-area: f1a;
+  text-align: left;
+}
+#features .f1 ul #f1b {
+  grid-area: f1b;
+  text-align: left;
+}
+#features .f1 ul #f1c {
+  grid-area: f1c;
+  text-align: right;
 }

@@ -180,6 +180,97 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/example\/greystar.png" : {
+      "ft" : 32768,
+      "iS" : 2693,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/greystar.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/icon1.png" : {
+      "ft" : 32768,
+      "iS" : 42199,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/icon1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/icon2.png" : {
+      "ft" : 32768,
+      "iS" : 31775,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/icon2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/icon3.png" : {
+      "ft" : 32768,
+      "iS" : 64161,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/icon3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/icon4.png" : {
+      "ft" : 32768,
+      "iS" : 44674,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/icon4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/icon5.png" : {
+      "ft" : 32768,
+      "iS" : 40885,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/icon5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/icon6.png" : {
+      "ft" : 32768,
+      "iS" : 53435,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/icon6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/example\/kettle.jpg" : {
       "ft" : 16384,
       "iS" : 16500,
@@ -204,6 +295,19 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/Star.png" : {
+      "ft" : 32768,
+      "iS" : 20713,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/Star.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/img\/global\/smeglogo.png" : {
@@ -270,6 +374,14 @@
       "oAP" : "\/dev\/content\/description.html",
       "oF" : 0
     },
+    "\/dev\/content\/features.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/features.html",
+      "oF" : 0
+    },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -314,7 +426,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/review.html",
       "oF" : 0
     },
@@ -552,6 +664,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_description.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_features.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_features.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
