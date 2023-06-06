@@ -1,5 +1,5 @@
 #features{
-text-align: center;
+// text-align: center;
 padding-bottom: 32px;
 
 .divide-line{
@@ -10,39 +10,74 @@ padding-bottom: 32px;
     margin-top: 32px;
 
 }
-h1{
-margin-bottom: 32px;
 
-}
+ul{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    
+    .feature-card{
+        display: flex;
+        align-items: center;
 
-.f1{
-grid-template-areas: ". f1 .";
-    ul{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        "f1a ."
-        "f1b f1c";
+            img{
 
-
-#f1a{
-    grid-area: f1a;
-    text-align: left;
-}
-#f1b{
-    grid-area: f1b;
-    text-align: left;
-}
-#f1c{
-    grid-area: f1c;
-    text-align: right;
-}
+            }
 
 
+            aside{
+                width: 100%; 
+                box-sizing: border-box;
+                
+                ul{
+                    width: 100%;
+                    li{
+                        display: flex;
+                        width: 100%;
+                        border: 1px solid red;
+                    }
+        
+                    .text-left{
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
 
-
-
+        
     }
+}
 
-}
-}
+// h1{
+// margin-bottom: 32px;
+
+// }
+
+// .f1{
+// grid-template-areas: ". f1 .";
+//     ul{
+//         display: grid;
+//         grid-template-columns: repeat(2, 1fr);
+//         grid-template-areas: 
+//         "f1a ."
+//         "f1b f1c";
+
+
+// #f1a{
+//     grid-area: f1a;
+//     text-align: left;
+// }
+// #f1b{
+//     grid-area: f1b;
+//     text-align: left;
+// }
+// #f1c{
+//     grid-area: f1c;
+//     text-align: right;
+// }
+
+
+//     }
+
+// }
+// }

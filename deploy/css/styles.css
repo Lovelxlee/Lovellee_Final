@@ -1011,7 +1011,6 @@ footer #f4 {
 }
 
 #features {
-  text-align: center;
   padding-bottom: 32px;
 }
 #features .divide-line {
@@ -1021,26 +1020,27 @@ footer #f4 {
   margin-bottom: 32px;
   margin-top: 32px;
 }
-#features h1 {
-  margin-bottom: 32px;
+#features ul {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid blue;
 }
-#features .f1 {
-  grid-template-areas: ". f1 .";
+#features ul .feature-card {
+  display: flex;
+  align-items: center;
 }
-#features .f1 ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "f1a ." "f1b f1c";
+#features ul .feature-card aside {
+  width: 100%;
+  box-sizing: border-box;
 }
-#features .f1 ul #f1a {
-  grid-area: f1a;
-  text-align: left;
+#features ul .feature-card aside ul {
+  width: 100%;
 }
-#features .f1 ul #f1b {
-  grid-area: f1b;
-  text-align: left;
+#features ul .feature-card aside ul li {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
 }
-#features .f1 ul #f1c {
-  grid-area: f1c;
-  text-align: right;
+#features ul .feature-card aside ul .text-left {
+  margin-left: auto;
 }
