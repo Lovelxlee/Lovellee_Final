@@ -167,12 +167,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Blender.jpg" : {
+    "\/deploy\/img\/example\/blender.jpg" : {
       "ft" : 16384,
       "iS" : 14123,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Blender.jpg",
+      "oAP" : "\/deploy\/img\/example\/blender.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -254,6 +254,14 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
+    "\/dev\/content\/intro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/intro.html",
+      "oF" : 0
+    },
     "\/dev\/content\/message.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -270,19 +278,11 @@
       "oAP" : "\/dev\/content\/payment.html",
       "oF" : 1
     },
-    "\/dev\/content\/payment2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/payment2.html",
-      "oF" : 1
-    },
     "\/dev\/content\/review.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/content\/review.html",
       "oF" : 0
     },
@@ -482,6 +482,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_intro.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_intro.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
