@@ -771,6 +771,35 @@ footer #f4 {
   justify-content: center;
   margin-bottom: 32px;
 }
+#intro .smeg5 {
+  background-image: url("../img/example/5Smeg.jpg");
+  background-size: cover;
+  height: 50vh;
+  margin-bottom: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#gallery h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+#gallery ul {
+  display: grid;
+  grid-template-rows: 50vh 75vh;
+  grid-template-areas: "g1 g2" ". g3";
+}
+#gallery ul li #g1 {
+  background-image: url("../img/example/3Smeg.jpg");
+}
+#gallery ul li #g2 {
+  background-image: url("../img/example/4Smeg.jpg");
+}
+#gallery ul li #g3 {
+  background-image: url("../img/example/5Smeg.jpg");
+}
 
 #message {
   padding-top: 150px;

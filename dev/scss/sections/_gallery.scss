@@ -1,0 +1,41 @@
+#gallery{
+    h2{
+        display: flex;
+        align-items: center;
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+
+    ul{
+        display: grid;
+        grid-template-rows: 50vh 75vh;
+        grid-template-areas: 
+        "g1 g2"
+         ". g3";
+       
+        li{
+            // background-position: center;
+            // background-size: cover;
+
+        
+
+
+    #g1{
+
+        background-image: url("../img/example/3Smeg.jpg");
+
+     }
+
+     #g2{
+        background-image: url("../img/example/4Smeg.jpg");
+
+     }
+
+     #g3{
+        background-image: url("../img/example/5Smeg.jpg");
+
+
+        }
+    }
+}
+}
