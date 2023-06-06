@@ -801,6 +801,69 @@ footer #f4 {
   background-image: url("../img/example/5Smeg.jpg");
 }
 
+#description {
+  margin-right: 42px;
+  margin-left: 42px;
+}
+#description h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#description .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+#description .divide-line {
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+#highlights {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+#highlights .divide-line {
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 32px;
+}
+#highlights img {
+  height: 167px;
+}
+#highlights #smeg {
+  float: right;
+}
+#highlights .steel {
+  text-align: right;
+}
+
+#about .divide-line {
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+#about h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+#about .clip {
+  background-image: url("../img/example/1Smeg.jpg");
+  background-size: cover;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 #message {
   padding-top: 150px;
   padding-left: 16px;
@@ -925,4 +988,8 @@ footer #f4 {
   #review .m2 {
     grid-area: m2;
   }
+}
+
+#reviews {
+  text-align: center;
 }

@@ -58,7 +58,7 @@
       "oAP" : "\/deploy\/img\/example\/2Smeg.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -136,7 +136,7 @@
       "oAP" : "\/deploy\/img\/example\/6Smeg.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -162,7 +162,7 @@
       "oAP" : "\/deploy\/img\/example\/8Smeg.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -254,12 +254,12 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
-    "\/dev\/content\/description.html" : {
+    "\/dev\/content\/about.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/description.html",
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/about.html",
       "oF" : 0
     },
     "\/dev\/content\/description.kit" : {
@@ -276,6 +276,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/gallery.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/highlights.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/highlights.html",
       "oF" : 0
     },
     "\/dev\/content\/intro.kit" : {
@@ -308,6 +316,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/content\/review.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/reviews.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -511,6 +527,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_about.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_about.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_description.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -536,6 +567,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_gallery.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_highlights.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_highlights.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -596,6 +642,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_review.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_reviews.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_reviews.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
