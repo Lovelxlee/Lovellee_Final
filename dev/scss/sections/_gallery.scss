@@ -5,7 +5,10 @@
             justify-content: center;
             margin-bottom: 32px;
         }
+img{
+width: 100%;
 
+}
     ul{
         display: grid;
         grid-template-rows: 50vh 75vh;
@@ -14,28 +17,29 @@
          ". g3";
        
         li{
-            background-position: center;
-            background-size: cover;
 
-        
+
+
+        }
 
 
     #g1{
-
-        background-image: url("../img/example/3Smeg.jpg");
+grid-area: g1;
 
      }
 
      #g2{
-        background-image: url("../img/example/4Smeg.jpg");
+        grid-area: g2;
+
 
      }
 
      #g3{
-        background-image: url("../img/example/5Smeg.jpg");
+        grid-area: g3;
 
 
-        }
+
+        
     }
 }
 }

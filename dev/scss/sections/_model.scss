@@ -1,0 +1,67 @@
+#model{
+margin-left: 16px;
+margin-right: 16px;
+img{
+    width: 23px;
+}
+
+ul{
+    width: 100%;
+    box-sizing: border-box;
+h4{
+    margin-right: 16px;
+}
+    
+    .square{
+        display: flex;
+
+        margin-top: 32px;
+
+
+            aside{
+                width: 100%; 
+                box-sizing: border-box;
+                
+                ul{
+      
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-areas: 
+                    "s1"
+                    "s2"
+                    "s3"
+                    ;
+
+                    li{
+
+
+
+
+                        .s1{
+                            grid-area: s1;
+                        }
+                        .s2{
+                            grid-area: s2;
+                        }
+                        .s3{
+                            grid-area: s3;
+                        }
+                        
+
+                    }
+                    .text-left{
+                        margin-left: auto;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+
+
+
+
+
+}

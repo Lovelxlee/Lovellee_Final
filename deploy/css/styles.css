@@ -795,23 +795,22 @@ footer #f4 {
   justify-content: center;
   margin-bottom: 32px;
 }
+#gallery img {
+  width: 100%;
+}
 #gallery ul {
   display: grid;
   grid-template-rows: 50vh 75vh;
   grid-template-areas: "g1 g2" ". g3";
 }
-#gallery ul li {
-  background-position: center;
-  background-size: cover;
+#gallery ul #g1 {
+  grid-area: g1;
 }
-#gallery ul li #g1 {
-  background-image: url("../img/example/3Smeg.jpg");
+#gallery ul #g2 {
+  grid-area: g2;
 }
-#gallery ul li #g2 {
-  background-image: url("../img/example/4Smeg.jpg");
-}
-#gallery ul li #g3 {
-  background-image: url("../img/example/5Smeg.jpg");
+#gallery ul #g3 {
+  grid-area: g3;
 }
 
 #description h2 {
@@ -1189,4 +1188,44 @@ footer #f4 {
 }
 #color ul .circle aside ul li .e16 {
   grid-area: e16;
+}
+
+#model {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+#model img {
+  width: 23px;
+}
+#model ul {
+  width: 100%;
+  box-sizing: border-box;
+}
+#model ul h4 {
+  margin-right: 16px;
+}
+#model ul .square {
+  display: flex;
+  margin-top: 32px;
+}
+#model ul .square aside {
+  width: 100%;
+  box-sizing: border-box;
+}
+#model ul .square aside ul {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "s1" "s2" "s3";
+}
+#model ul .square aside ul li .s1 {
+  grid-area: s1;
+}
+#model ul .square aside ul li .s2 {
+  grid-area: s2;
+}
+#model ul .square aside ul li .s3 {
+  grid-area: s3;
+}
+#model ul .square aside ul .text-left {
+  margin-left: auto;
 }
