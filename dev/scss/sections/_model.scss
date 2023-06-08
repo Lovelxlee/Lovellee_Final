@@ -1,6 +1,7 @@
 #model{
 margin-left: 16px;
 margin-right: 16px;
+margin-bottom: 32px;
 img{
     width: 23px;
 }
@@ -8,6 +9,7 @@ img{
 ul{
     width: 100%;
     box-sizing: border-box;
+
 h4{
     margin-right: 16px;
 }
@@ -21,20 +23,16 @@ h4{
             aside{
                 width: 100%; 
                 box-sizing: border-box;
-                
+
                 ul{
       
-                    display: grid;
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-template-areas: 
-                    "s1"
-                    "s2"
-                    "s3"
-                    ;
+                    display: flex;
+
 
                     li{
 
-
+                        display: inline-block;
+                        margin-right: 10px;
 
 
                         .s1{
@@ -49,9 +47,7 @@ h4{
                         
 
                     }
-                    .text-left{
-                        margin-left: auto;
-                    }
+
                 }
             }
         }

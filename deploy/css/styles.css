@@ -789,20 +789,20 @@ footer #f4 {
   background-position: center center;
 }
 
+#gal-title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
 #gallery {
-  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 16px;
   margin-right: 16px;
-}
-#gallery h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0px;
-  padding-bottom: 0px;
 }
 #gallery img {
   width: 192px;
@@ -810,27 +810,22 @@ footer #f4 {
 #gallery ul {
   width: 100%;
   box-sizing: border-box;
-  background-color: aqua;
 }
 #gallery ul .g1 {
   display: flex;
   align-items: center;
-  margin-top: 32px;
 }
 #gallery ul .g1 aside {
   width: 100%;
   box-sizing: border-box;
-  background: red;
 }
 #gallery ul .g1 aside ul {
   width: 100%;
-  background-color: green;
 }
 #gallery ul .g1 aside ul li {
   display: flex;
   width: 100%;
   margin-top: 8px;
-  background-color: black;
 }
 
 #description h2 {
@@ -1213,6 +1208,7 @@ footer #f4 {
 #model {
   margin-left: 16px;
   margin-right: 16px;
+  margin-bottom: 32px;
 }
 #model img {
   width: 23px;
@@ -1233,9 +1229,11 @@ footer #f4 {
   box-sizing: border-box;
 }
 #model ul .square aside ul {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "s1" "s2" "s3";
+  display: flex;
+}
+#model ul .square aside ul li {
+  display: inline-block;
+  margin-right: 10px;
 }
 #model ul .square aside ul li .s1 {
   grid-area: s1;
@@ -1245,7 +1243,4 @@ footer #f4 {
 }
 #model ul .square aside ul li .s3 {
   grid-area: s3;
-}
-#model ul .square aside ul .text-left {
-  margin-left: auto;
 }
