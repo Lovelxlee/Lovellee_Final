@@ -6,7 +6,7 @@
     background-size: cover;
     height: 30vh;
     margin-top: 100px;
-    margin-bottom: 32px;
+
     background-repeat: no-repeat;
     background-position: center center;
     display: flex;
@@ -31,12 +31,17 @@ align-items: center;
     justify-content: center;
     margin-bottom: 32px;
 }
-
-.main{
-    height: 360px;
+>div{
     display: flex;
 align-items: center;
-justify-content: center;
+
+    justify-content: center;
+    .main{
+        height: 360px;
+    margin-bottom: 32px;
+    }
+
 }
+
 
 }

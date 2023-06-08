@@ -763,7 +763,6 @@ footer #f4 {
   background-size: cover;
   height: 30vh;
   margin-top: 100px;
-  margin-bottom: 32px;
   background-repeat: no-repeat;
   background-position: center center;
   display: flex;
@@ -785,11 +784,14 @@ footer #f4 {
   justify-content: center;
   margin-bottom: 32px;
 }
-#intro .main {
-  height: 360px;
+#intro > div {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#intro > div .main {
+  height: 360px;
+  margin-bottom: 32px;
 }
 
 #gal-title h2 {
@@ -1143,10 +1145,9 @@ footer #f4 {
 }
 @media (min-width: 1024px) {
   #color {
-    grid-area: color;
-    display: grid;
-    grid-template-columns: "25% 50% 25%";
-    grid-template-areas: ". color .";
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 #color h4 {

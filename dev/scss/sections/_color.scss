@@ -3,11 +3,10 @@
     margin-right: 16px;
     margin-bottom: 32px;
     @include lg{    
-grid-area: color;
-display: grid;
-grid-template-columns: "25% 50% 25%";
-grid-template-areas: ". color .";
-
+        display: flex;
+        align-items: center;
+        
+            justify-content: center;
 
     }
     h4{
