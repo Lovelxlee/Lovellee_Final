@@ -770,6 +770,11 @@ footer #f4 {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 1024px) {
+  #intro .video {
+    height: 90vh;
+  }
+}
 #intro .video img {
   width: 120px;
 }
@@ -780,13 +785,11 @@ footer #f4 {
   justify-content: center;
   margin-bottom: 32px;
 }
-#intro .smeg5 {
-  background-image: url("../img/example/5Smeg.jpg");
-  background-size: cover;
-  height: 50vh;
-  margin-bottom: 32px;
-  background-repeat: no-repeat;
-  background-position: center center;
+#intro .main {
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #gal-title h2 {
@@ -920,6 +923,11 @@ footer #f4 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (min-width: 1024px) {
+  #about .clip {
+    height: 80vh;
+  }
 }
 #about .clip img {
   width: 120px;
@@ -1133,6 +1141,14 @@ footer #f4 {
   margin-right: 16px;
   margin-bottom: 32px;
 }
+@media (min-width: 1024px) {
+  #color {
+    grid-area: color;
+    display: grid;
+    grid-template-columns: "25% 50% 25%";
+    grid-template-areas: ". color .";
+  }
+}
 #color h4 {
   margin-right: 16px;
 }
@@ -1155,6 +1171,13 @@ footer #f4 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-areas: "e1 e2 e3 e4 e5 e6" "e7 e8 e9 e10 e11 e12" "e13 e14 e15 e16 . .";
+}
+@media (min-width: 1024px) {
+  #color ul .circle aside ul {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-areas: "e1 e2 e3 e4 e5 e6 e7 e8" "e9 e10 e11 e12 e13 e14 e15 e16";
+  }
 }
 #color ul .circle aside ul li .e1 {
   grid-area: e1;
@@ -1229,11 +1252,13 @@ footer #f4 {
   box-sizing: border-box;
 }
 #model ul .square aside ul {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "s1" "s2" "s3";
 }
 #model ul .square aside ul li {
-  display: inline-block;
-  margin-right: 10px;
+  background-color: red;
+  display: flex;
 }
 #model ul .square aside ul li .s1 {
   grid-area: s1;
@@ -1243,4 +1268,8 @@ footer #f4 {
 }
 #model ul .square aside ul li .s3 {
   grid-area: s3;
+}
+#model ul .square aside ul li li {
+  background-color: blue;
+  display: inline-block;
 }

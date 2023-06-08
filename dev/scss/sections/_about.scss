@@ -25,7 +25,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            
+            @include lg {
+height: 80vh;
+            }
             img{
                 width:120px;
         
