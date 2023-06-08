@@ -789,28 +789,48 @@ footer #f4 {
   background-position: center center;
 }
 
+#gallery {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
 #gallery h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 32px;
+  margin-top: 0px;
+  padding-bottom: 0px;
 }
 #gallery img {
-  width: 100%;
+  width: 192px;
 }
 #gallery ul {
-  display: grid;
-  grid-template-rows: 50vh 75vh;
-  grid-template-areas: "g1 g2" ". g3";
+  width: 100%;
+  box-sizing: border-box;
+  background-color: aqua;
 }
-#gallery ul #g1 {
-  grid-area: g1;
+#gallery ul .g1 {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
 }
-#gallery ul #g2 {
-  grid-area: g2;
+#gallery ul .g1 aside {
+  width: 100%;
+  box-sizing: border-box;
+  background: red;
 }
-#gallery ul #g3 {
-  grid-area: g3;
+#gallery ul .g1 aside ul {
+  width: 100%;
+  background-color: green;
+}
+#gallery ul .g1 aside ul li {
+  display: flex;
+  width: 100%;
+  margin-top: 8px;
+  background-color: black;
 }
 
 #description h2 {
