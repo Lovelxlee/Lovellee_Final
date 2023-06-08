@@ -3,55 +3,90 @@
 margin-right: 16px;
 margin-left: 16px;
 margin-bottom: 96px;
+@include lg{
+display:grid;
+background-color: aqua;
+grid-template-columns: repeat(3,1fr);
+grid-template-areas: "f1 f2 f3"
+"f4 f5 f6";
 
-img{
-    width: 73px;
-    margin-right:8px;
+
 }
-.title{
-    text-align: center;
-    margin-bottom: 32px;
-}
+>div{
 
-
-ul{
-    width: 100%;
-    box-sizing: border-box;
-
+    img{
+        width: 73px;
+        margin-right:8px;
+    }
     
-    .feature-card{
-        display: flex;
-        align-items: center;
-        margin-top: 32px;
-
-            img{
-
-            }
-
-
-            aside{
-                width: 100%; 
-                box-sizing: border-box;
-                
-                ul{
-                    width: 100%;
-                    li{
-                        display: flex;
-                        width: 100%;
-                        margin-top:8px;
-
-                        p{
-                            margin-top: 0px;
-                            margin-bottom: 0px;
-                        }
-                    }
+    .title{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    
+    
+    ul{
+        width: 100%;
+        box-sizing: border-box;
+    
         
-                    .text-left{
-                        margin-left: auto;
+        .feature-card{
+            display: flex;
+            align-items: center;
+            margin-top: 32px;
+    
+       
+    
+                aside{
+                    width: 100%; 
+                    box-sizing: border-box;
+                    
+                    ul{
+                        width: 100%;
+                        li{
+                            display: flex;
+                            width: 100%;
+                            margin-top:8px;
+    
+                            p{
+                                margin-top: 0px;
+                                margin-bottom: 0px;
+                            }
+
+                            .f1{
+                                grid-area: f1;
+                            }
+                            .f2{
+                                grid-area: f2;
+                            }
+                            .f3{
+                                grid-area: f3;
+                            }
+                            .f4{
+                                grid-area: f4;
+                            }
+                            .f5{
+                                grid-area: f5;
+                            }
+                            .f6{
+                                grid-area: f6;
+                            }
+
+                        }
+            
+                        .text-left{
+                            margin-left: auto;
+                        }
                     }
                 }
             }
-        }
+
+
+
+
+
+}
+
 
         
     }

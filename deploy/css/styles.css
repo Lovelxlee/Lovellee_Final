@@ -1061,8 +1061,35 @@ footer #f4 {
   }
 }
 
+@media (min-width: 1024px) {
+  .section-title {
+    margin-left: 255px;
+  }
+}
+
 #reviews {
   text-align: center;
+}
+@media (min-width: 1024px) {
+  #reviews {
+    display: grid;
+    margin-right: 255px;
+    margin-left: 255px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "l1 l2" "l3 l4";
+  }
+  #reviews .l1 {
+    grid-area: l1;
+  }
+  #reviews .l2 {
+    grid-area: l2;
+  }
+  #reviews .l3 {
+    grid-area: l3;
+  }
+  #reviews .l4 {
+    grid-area: l4;
+  }
 }
 #reviews h2 {
   margin-top: 8px;
@@ -1079,7 +1106,8 @@ footer #f4 {
   display: inline-block;
   margin-top: 32px;
 }
-#reviews .divide-line {
+
+.line .divide-line {
   height: 1px;
   background-color: black;
   width: 100%;
@@ -1092,40 +1120,66 @@ footer #f4 {
   margin-left: 16px;
   margin-bottom: 96px;
 }
-#features img {
+@media (min-width: 1024px) {
+  #features {
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "f1 f2 f3" "f4 f5 f6";
+  }
+}
+#features > div img {
   width: 73px;
   margin-right: 8px;
 }
-#features .title {
+#features > div .title {
   text-align: center;
   margin-bottom: 32px;
 }
-#features ul {
+#features > div ul {
   width: 100%;
   box-sizing: border-box;
 }
-#features ul .feature-card {
+#features > div ul .feature-card {
   display: flex;
   align-items: center;
   margin-top: 32px;
 }
-#features ul .feature-card aside {
+#features > div ul .feature-card aside {
   width: 100%;
   box-sizing: border-box;
 }
-#features ul .feature-card aside ul {
+#features > div ul .feature-card aside ul {
   width: 100%;
 }
-#features ul .feature-card aside ul li {
+#features > div ul .feature-card aside ul li {
   display: flex;
   width: 100%;
   margin-top: 8px;
 }
-#features ul .feature-card aside ul li p {
+#features > div ul .feature-card aside ul li p {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-#features ul .feature-card aside ul .text-left {
+#features > div ul .feature-card aside ul li .f1 {
+  grid-area: f1;
+}
+#features > div ul .feature-card aside ul li .f2 {
+  grid-area: f2;
+}
+#features > div ul .feature-card aside ul li .f3 {
+  grid-area: f3;
+}
+#features > div ul .feature-card aside ul li .f4 {
+  grid-area: f4;
+}
+#features > div ul .feature-card aside ul li .f5 {
+  grid-area: f5;
+}
+#features > div ul .feature-card aside ul li .f6 {
+  grid-area: f6;
+}
+#features > div ul .feature-card aside ul .text-left {
   margin-left: auto;
 }
 #features .button-container {
@@ -1258,7 +1312,6 @@ footer #f4 {
   grid-template-areas: "s1" "s2" "s3";
 }
 #model ul .square aside ul li {
-  background-color: red;
   display: flex;
 }
 #model ul .square aside ul li .s1 {
@@ -1271,6 +1324,5 @@ footer #f4 {
   grid-area: s3;
 }
 #model ul .square aside ul li li {
-  background-color: blue;
   display: inline-block;
 }

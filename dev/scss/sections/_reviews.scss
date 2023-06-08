@@ -1,10 +1,42 @@
+.section-title{
+    @include lg{
 
+        margin-left:255px;
+    }
+
+}
 #reviews{
 text-align: center;
 
+@include lg{
+display:grid;
+margin-right: 255px;
+margin-left: 255px;
+grid-template-columns: repeat(2,1fr);
+grid-template-areas: 
+"l1 l2"
+"l3 l4";
 
+.l1{
+
+    grid-area: l1;
+}
+.l2{
+
+    grid-area: l2;
+}
+.l3{
+
+    grid-area: l3;
+}
+.l4{
+
+    grid-area: l4;
+}
+}
 h2{
     margin-top: 8px;
+
 
 }
 
@@ -23,12 +55,20 @@ li{
     display: inline-block;
     margin-top:32px;
 }
-.divide-line{
-    height: 1px;
-    background-color: black;
-    width: 100%;
-    margin-bottom: 32px;
-    margin-top: 32px;
 
 }
+.line{
+
+    .divide-line{
+        height: 1px;
+        background-color: black;
+        width:100%;
+        margin-bottom: 32px;
+        margin-top: 32px;
+
+    
+    }
+
+
+
 }
