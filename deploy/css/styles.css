@@ -684,11 +684,6 @@ footer #f4 {
   gap: 32px;
   grid-template-areas: "f1" "f2" "f3" "f4" "f5";
 }
-@media (min-width: 1024px) {
-  #payment {
-    margin-top: 300px;
-  }
-}
 
 #payment2 {
   margin-top: 32px;
@@ -750,11 +745,27 @@ footer #f4 {
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: ". p2 p2 p2 p2 p2 p2 . p1 p1 p1 p1";
   }
-  #desktop-payment .p1 {
+  #desktop-payment #payment {
+    grid-area: p1;
     background-color: white;
   }
-  #desktop-payment .p2 {
+}
+@media (min-width: 1024px) and (min-width: 1024px) {
+  #desktop-payment #payment {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #desktop-payment #payment2 {
+    grid-area: p2;
     background-image: none;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+  }
+  #desktop-payment #payment2 h1 {
+    color: black;
   }
 }
 
@@ -1199,9 +1210,13 @@ footer #f4 {
 }
 @media (min-width: 1024px) {
   #color {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    grid-area: color;
+    display: grid;
+    grid-template-columns: "25% 50% 25%";
+    grid-template-areas: ". color .";
+  }
+  #color button {
+    border-radius: 20;
   }
 }
 #color h4 {

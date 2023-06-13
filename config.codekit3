@@ -605,60 +605,12 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
-    "\/dev\/content\/about.kit" : {
+    "\/dev\/content\/checkout\/payment.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/about.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/color.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/color.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/description.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/description.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/features.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/features.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/gallery.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/gallery.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/highlights.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/highlights.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/intro.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/intro.html",
+      "oAP" : "\/dev\/content\/checkout\/payment.html",
       "oF" : 0
     },
     "\/dev\/content\/message.kit" : {
@@ -669,21 +621,77 @@
       "oAP" : "\/dev\/content\/message.html",
       "oF" : 1
     },
-    "\/dev\/content\/model.kit" : {
+    "\/dev\/content\/product\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/model.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/about.html",
       "oF" : 0
     },
-    "\/dev\/content\/payment.kit" : {
+    "\/dev\/content\/product\/color.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/payment.html",
-      "oF" : 1
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/color.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/description.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/description.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/features.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/features.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/gallery.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/highlights.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/highlights.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/intro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/intro.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/model.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/model.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/reviews.html",
+      "oF" : 0
     },
     "\/dev\/content\/review.kit" : {
       "cB" : 0,
@@ -691,14 +699,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/review.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/reviews.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/reviews.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
