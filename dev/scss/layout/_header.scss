@@ -1,13 +1,64 @@
 /* =============
     Header
 ============= */
-header {
+header{
 	position: fixed;
 	width: 100%;
 	top:0;
 	left: 0;
 	z-index: 500;
 
+
+// @include lg{
+// 	background-color: blue;
+// display: grid;
+// grid-template-columns: 20% 80%;
+// grid-template-areas: "logo-container main-menu";
+
+// #logo-container{
+// 	grid-area: logo-container;
+// 	background-color: red;
+
+// }
+
+// #main-menu{
+// 	grid-area: main-menu;
+// 	background-color: aquamarine;
+// 	display: grid;
+// 	grid-template-columns: 30% auto;
+// 	grid-template-areas: "list search";
+
+// #search{
+
+// grid-area: search;
+// width: 50%;
+// padding-top: 0;
+// padding-bottom: 0;
+// >div{
+
+// 	form {
+	
+// 		input {
+// 			width: 80%;
+// 			border: none;
+// 			border-bottom: 1px solid var(--blueLight);
+// 			border-radius: 0 !important;
+
+// 			margin-right: 8px;
+// 		}}
+
+
+// }
+	
+
+// }
+// #list{
+// 	grid-area: list;
+
+// }
+// }
+
+// }
 	#logo-nav {
 		background-color: var(--greydark);
 		padding: 24px 16px;

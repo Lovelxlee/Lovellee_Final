@@ -889,6 +889,68 @@ footer #f4 {
 #highlights img {
   height: 167px;
 }
+@media (min-width: 1024px) {
+  #highlights {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  #highlights .highlight1 ul {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "i1 t1";
+  }
+  #highlights .highlight1 ul .i1 {
+    grid-area: i1;
+  }
+  #highlights .highlight1 ul h1 {
+    margin-top: 8px;
+  }
+  #highlights .highlight1 ul p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
+  #highlights .highlight2 ul {
+    margin-top: 32px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+  }
+  #highlights .highlight2 ul img {
+    display: grid;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+  }
+  #highlights .highlight2 ul h1 {
+    margin-top: 8px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+  }
+  #highlights .highlight2 ul p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+  }
+  #highlights .highlight3 ul {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #highlights .highlight3 ul h1 {
+    margin-top: 8px;
+  }
+  #highlights .highlight3 ul p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
+}
 #highlights .highlight1 ul {
   margin-top: 32px;
   display: grid;
@@ -924,9 +986,6 @@ footer #f4 {
 #highlights .highlight3 ul p {
   margin-top: 8px;
   margin-bottom: 0px;
-}
-#highlights .steel {
-  text-align: right;
 }
 
 #about .divide-line {
@@ -1185,8 +1244,8 @@ footer #f4 {
 }
 
 #features {
-  margin-right: 135px;
-  margin-left: 135px;
+  margin-right: 16px;
+  margin-left: 16px;
   margin-bottom: 96px;
 }
 @media (min-width: 1024px) {
