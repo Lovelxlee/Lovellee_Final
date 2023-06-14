@@ -1194,7 +1194,6 @@ footer #f4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "f1 f2 f6" "f4 f5 f3";
-    background-color: blue;
   }
   #features ul #f1 {
     grid-area: f1;
