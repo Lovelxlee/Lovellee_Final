@@ -7,19 +7,26 @@
     }
 
 @include lg{
-margin-left: 32px;
-margin-right: 32px;
+margin-left: 373px;
+margin-right: 373px;
     .highlight1{
         ul{
     
             margin-top: 32px;
             display:grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: 167px auto;
 grid-template-areas: "i1 t1";
 
 .i1{
 grid-area: i1;
-
+background-color: blue;
+margin-right:0px;
+padding-right:0px;
+}
+.t1{
+    grid-area:t1;
+    background-color: green;
+    margin-left:16px;
 }
             h1{
                 margin-top: 8px;
@@ -38,10 +45,24 @@ ul{
     margin-top: 32px;
     background-color:blue;
     display:grid;
-    grid-template-columns: repeat(2,1fr);
+
     align-items: left;
     justify-content: left;
     text-align: left;
+    grid-template-columns: 167px auto;
+    grid-template-areas: "i2 t2";
+    
+    .i2{
+    grid-area: i2;
+    background-color: blue;
+    margin-right:0px;
+    padding-right:0px;
+    }
+    .t2{
+        grid-area:t2;
+        background-color: green;
+        margin-left:16px;
+    }
 img{
     display:grid;
     align-items: left;
@@ -69,7 +90,20 @@ img{
     ul{
         margin-top: 32px;
         display:grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 167px auto;
+        grid-template-areas: "i3 t3";
+        
+        .i3{
+        grid-area: i3;
+        background-color: blue;
+        margin-right:0px;
+        padding-right:0px;
+        }
+        .t3{
+            grid-area:t3;
+            background-color: green;
+            margin-left:16px;
+        }
         h1{
             margin-top: 8px;
         }

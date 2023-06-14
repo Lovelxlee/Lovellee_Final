@@ -891,17 +891,25 @@ footer #f4 {
 }
 @media (min-width: 1024px) {
   #highlights {
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 373px;
+    margin-right: 373px;
   }
   #highlights .highlight1 ul {
     margin-top: 32px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 167px auto;
     grid-template-areas: "i1 t1";
   }
   #highlights .highlight1 ul .i1 {
     grid-area: i1;
+    background-color: blue;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  #highlights .highlight1 ul .t1 {
+    grid-area: t1;
+    background-color: green;
+    margin-left: 16px;
   }
   #highlights .highlight1 ul h1 {
     margin-top: 8px;
@@ -914,10 +922,22 @@ footer #f4 {
     margin-top: 32px;
     background-color: blue;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: left;
     justify-content: left;
     text-align: left;
+    grid-template-columns: 167px auto;
+    grid-template-areas: "i2 t2";
+  }
+  #highlights .highlight2 ul .i2 {
+    grid-area: i2;
+    background-color: blue;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  #highlights .highlight2 ul .t2 {
+    grid-area: t2;
+    background-color: green;
+    margin-left: 16px;
   }
   #highlights .highlight2 ul img {
     display: grid;
@@ -941,7 +961,19 @@ footer #f4 {
   #highlights .highlight3 ul {
     margin-top: 32px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 167px auto;
+    grid-template-areas: "i3 t3";
+  }
+  #highlights .highlight3 ul .i3 {
+    grid-area: i3;
+    background-color: blue;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  #highlights .highlight3 ul .t3 {
+    grid-area: t3;
+    background-color: green;
+    margin-left: 16px;
   }
   #highlights .highlight3 ul h1 {
     margin-top: 8px;
