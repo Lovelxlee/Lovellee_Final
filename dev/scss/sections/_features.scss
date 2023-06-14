@@ -1,8 +1,9 @@
 
 .title{
+    text-align: center;
     @include lg{
         margin-left:132px;
-
+text-align: left;
     }
 
 }
@@ -148,6 +149,7 @@ grid-template-areas: "r";
             
                         .text-left{
                             margin-left: auto;
+                            text-align: right;
                         }
                     }
                 }
@@ -162,21 +164,20 @@ grid-template-areas: "r";
 
         
     }
-    .button-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-        
-        }
-    .orange-button{
-        display: flex;
-        align-items: center;
-
-            }
 
 }
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    }
+.orange-button{
+    display: flex;
+    align-items: center;
 
+        }
 // h1{
 // margin-bottom: 32px;
 

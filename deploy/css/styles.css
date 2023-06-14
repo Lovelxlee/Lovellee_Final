@@ -1220,8 +1220,12 @@ footer #f4 {
   }
 }
 
+.section-title {
+  text-align: center;
+}
 @media (min-width: 1024px) {
   .section-title {
+    text-align: left;
     margin-left: 255px;
   }
 }
@@ -1274,9 +1278,13 @@ footer #f4 {
   margin-top: 32px;
 }
 
+.title {
+  text-align: center;
+}
 @media (min-width: 1024px) {
   .title {
     margin-left: 132px;
+    text-align: left;
   }
 }
 
@@ -1386,13 +1394,16 @@ footer #f4 {
 }
 #features > div ul .feature-card aside ul .text-left {
   margin-left: auto;
+  text-align: right;
 }
-#features .button-container {
+
+.button-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#features .orange-button {
+
+.orange-button {
   display: flex;
   align-items: center;
 }

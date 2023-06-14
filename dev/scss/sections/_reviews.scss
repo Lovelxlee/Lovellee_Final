@@ -1,6 +1,7 @@
 .section-title{
+    text-align: center;
     @include lg{
-
+        text-align: left;
         margin-left:255px;
     }
 
