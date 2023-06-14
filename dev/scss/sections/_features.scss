@@ -1,10 +1,19 @@
+
+.title{
+    @include lg{
+        margin-left:132px;
+
+    }
+
+}
 #features{
 // text-align: center;
 margin-right: 16px;
 margin-left: 16px;
 margin-bottom: 96px;
 @include lg{
-
+    margin-right: 132px;
+    margin-left: 132px;
     ul{
 
         display:grid;

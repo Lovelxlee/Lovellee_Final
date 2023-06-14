@@ -19,13 +19,11 @@ grid-template-areas: "i1 t1";
 
 .i1{
 grid-area: i1;
-background-color: blue;
 margin-right:0px;
 padding-right:0px;
 }
 .t1{
     grid-area:t1;
-    background-color: green;
     margin-left:16px;
 }
             h1{
@@ -43,7 +41,6 @@ padding-right:0px;
 ul{
 
     margin-top: 32px;
-    background-color:blue;
     display:grid;
 
     align-items: left;
@@ -54,13 +51,12 @@ ul{
     
     .i2{
     grid-area: i2;
-    background-color: blue;
     margin-right:0px;
     padding-right:0px;
     }
     .t2{
         grid-area:t2;
-        background-color: green;
+
         margin-left:16px;
     }
 img{
@@ -95,13 +91,13 @@ img{
         
         .i3{
         grid-area: i3;
-        background-color: blue;
+
         margin-right:0px;
         padding-right:0px;
         }
         .t3{
             grid-area:t3;
-            background-color: green;
+
             margin-left:16px;
         }
         h1{

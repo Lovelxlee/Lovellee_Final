@@ -9,7 +9,11 @@
             margin-right:42px;
             margin-left: 42px;
             margin-bottom: 0px;
-        
+        @include lg{
+            margin-right:500px;
+            margin-left: 500px;
+
+        }
         }
 .container{
 

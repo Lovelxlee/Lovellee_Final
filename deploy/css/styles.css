@@ -869,6 +869,12 @@ footer #f4 {
   margin-left: 42px;
   margin-bottom: 0px;
 }
+@media (min-width: 1024px) {
+  #description p {
+    margin-right: 500px;
+    margin-left: 500px;
+  }
+}
 #description .container {
   display: flex;
   justify-content: center;
@@ -902,13 +908,11 @@ footer #f4 {
   }
   #highlights .highlight1 ul .i1 {
     grid-area: i1;
-    background-color: blue;
     margin-right: 0px;
     padding-right: 0px;
   }
   #highlights .highlight1 ul .t1 {
     grid-area: t1;
-    background-color: green;
     margin-left: 16px;
   }
   #highlights .highlight1 ul h1 {
@@ -920,7 +924,6 @@ footer #f4 {
   }
   #highlights .highlight2 ul {
     margin-top: 32px;
-    background-color: blue;
     display: grid;
     align-items: left;
     justify-content: left;
@@ -930,13 +933,11 @@ footer #f4 {
   }
   #highlights .highlight2 ul .i2 {
     grid-area: i2;
-    background-color: blue;
     margin-right: 0px;
     padding-right: 0px;
   }
   #highlights .highlight2 ul .t2 {
     grid-area: t2;
-    background-color: green;
     margin-left: 16px;
   }
   #highlights .highlight2 ul img {
@@ -966,13 +967,11 @@ footer #f4 {
   }
   #highlights .highlight3 ul .i3 {
     grid-area: i3;
-    background-color: blue;
     margin-right: 0px;
     padding-right: 0px;
   }
   #highlights .highlight3 ul .t3 {
     grid-area: t3;
-    background-color: green;
     margin-left: 16px;
   }
   #highlights .highlight3 ul h1 {
@@ -1275,12 +1274,22 @@ footer #f4 {
   margin-top: 32px;
 }
 
+@media (min-width: 1024px) {
+  .title {
+    margin-left: 132px;
+  }
+}
+
 #features {
   margin-right: 16px;
   margin-left: 16px;
   margin-bottom: 96px;
 }
 @media (min-width: 1024px) {
+  #features {
+    margin-right: 132px;
+    margin-left: 132px;
+  }
   #features ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
