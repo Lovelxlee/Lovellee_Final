@@ -885,7 +885,6 @@ footer #f4 {
   background-color: black;
   width: 100%;
   margin-bottom: 32px;
-  margin-top: 0;
 }
 
 #highlights {
@@ -1104,8 +1103,6 @@ footer #f4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "kettle blender mixer";
-  margin-right: 0;
-  padding-right: 0;
 }
 #message .m2 .rec #kettle {
   grid-area: kettle;
@@ -1518,7 +1515,6 @@ footer #f4 {
 #model ul {
   width: 100%;
   box-sizing: border-box;
-  background-color: aquamarine;
 }
 #model ul .square {
   display: flex;
@@ -1529,7 +1525,6 @@ footer #f4 {
 }
 #model ul .square aside ul li .m1 {
   display: grid;
-  background-color: aqua;
   grid-template-columns: 23px auto;
   grid-template-areas: "m1a m1b";
 }
@@ -1541,7 +1536,6 @@ footer #f4 {
 }
 #model ul .square aside ul li .m2 {
   display: grid;
-  background-color: aqua;
   grid-template-columns: 23px auto;
   grid-template-areas: "m1a m1b";
 }
@@ -1553,7 +1547,6 @@ footer #f4 {
 }
 #model ul .square aside ul li .m3 {
   display: grid;
-  background-color: aqua;
   grid-template-columns: 23px auto;
   grid-template-areas: "m1a m1b";
 }

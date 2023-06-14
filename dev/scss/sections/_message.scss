@@ -69,8 +69,6 @@ grid-template-areas:
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "kettle blender mixer";
-margin-right: 0;
-padding-right: 0;
 
 #kettle{
 grid-area: kettle;

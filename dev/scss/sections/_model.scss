@@ -11,7 +11,7 @@ h4{
 ul{
     width: 100%;
     box-sizing: border-box;
-background-color: aquamarine;
+
 
     
     .square{
@@ -69,7 +69,7 @@ aside{
                             }
 .m1{
 display:grid;
-background-color: aqua;
+
 grid-template-columns: 23px auto;
 grid-template-areas: "m1a m1b";
 
@@ -83,7 +83,7 @@ grid-template-areas: "m1a m1b";
 }
 .m2{
     display:grid;
-    background-color: aqua;
+
     grid-template-columns: 23px auto;
     grid-template-areas: "m1a m1b";
     
@@ -97,7 +97,7 @@ grid-template-areas: "m1a m1b";
 }
     .m3{
         display:grid;
-        background-color: aqua;
+
         grid-template-columns: 23px auto;
         grid-template-areas: "m1a m1b";
         
