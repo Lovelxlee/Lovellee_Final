@@ -5,14 +5,14 @@ margin-bottom: 32px;
 img{
     width: 23px;
 }
-
-ul{
-    width: 100%;
-    box-sizing: border-box;
-
 h4{
     margin-right: 16px;
 }
+ul{
+    width: 100%;
+    box-sizing: border-box;
+background-color: aquamarine;
+
     
     .square{
         display: flex;
@@ -20,43 +20,105 @@ h4{
         margin-top: 32px;
 
 
-            aside{
-                width: 100%; 
-                box-sizing: border-box;
+//             aside{
+//                 width: 100%; 
+//                 box-sizing: border-box;
 
-                ul{
-      display:grid;
-      grid-template-columns: repeat(1,1fr);
-      grid-template-areas: "s1"
-      "s2"
-      "s3";
+//                 ul{
+//       display:grid;
+//       grid-template-columns: repeat(1,1fr);
+//       grid-template-areas: "s1"
+//       "s2"
+//       "s3";
        
 
 
-                    li{
-// background-color: red;
-display: flex;
-                        .s1{
-                            grid-area: s1;
+//                     li{
+// // background-color: red;
+// display: flex;
+//                         .s1{
+//                             grid-area: s1;
                             
-                        }
-                        .s2{
-                            grid-area: s2;
-                        }
-                        .s3{
-                            grid-area: s3;
-                        }
+//                         }
+//                         .s2{
+//                             grid-area: s2;
+//                         }
+//                         .s3{
+//                             grid-area: s3;
+//                         }
                         
-li{
-// background-color: blue;
-    display: inline-block;
+// li{
+// // background-color: blue;
+//     display: inline-block;
 
+
+// }
+//                     }
+
+//                 }
+//             }
+aside{
+
+    
+                    ul{
+
+    
+                        li{
+                            p{
+                                margin-top: 0;
+                            }
+.m1{
+display:grid;
+background-color: aqua;
+grid-template-columns: 23px auto;
+grid-template-areas: "m1a m1b";
+
+.m1a{
+    grid-area: m1a;
+}
+.m1b{
+
+    grid-area: m1b;
+}
+}
+.m2{
+    display:grid;
+    background-color: aqua;
+    grid-template-columns: 23px auto;
+    grid-template-areas: "m1a m1b";
+    
+    .m2a{
+        grid-area: m1a;
+    }
+    .m2b{
+    
+        grid-area: m1b;
+    }
+}
+    .m3{
+        display:grid;
+        background-color: aqua;
+        grid-template-columns: 23px auto;
+        grid-template-areas: "m1a m1b";
+        
+        .m3a{
+            grid-area: m1a;
+        }
+        .m3b{
+        
+            grid-area: m1b;
+        }
 
 }
-                    }
 
+
+                            
+ 
+    
+                        }
+    
+                    }
                 }
-            }
         }
 
         
@@ -66,5 +128,4 @@ li{
 
 
 
-
-}
+    }

@@ -879,13 +879,13 @@ footer #f4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 32px;
 }
 #description .divide-line {
   height: 1px;
   background-color: black;
   width: 100%;
   margin-bottom: 32px;
+  margin-top: 0;
 }
 
 #highlights {
@@ -1406,6 +1406,7 @@ footer #f4 {
 .orange-button {
   display: flex;
   align-items: center;
+  margin-bottom: 96px;
 }
 
 #color {
@@ -1511,38 +1512,54 @@ footer #f4 {
 #model img {
   width: 23px;
 }
+#model h4 {
+  margin-right: 16px;
+}
 #model ul {
   width: 100%;
   box-sizing: border-box;
-}
-#model ul h4 {
-  margin-right: 16px;
+  background-color: aquamarine;
 }
 #model ul .square {
   display: flex;
   margin-top: 32px;
 }
-#model ul .square aside {
-  width: 100%;
-  box-sizing: border-box;
+#model ul .square aside ul li p {
+  margin-top: 0;
 }
-#model ul .square aside ul {
+#model ul .square aside ul li .m1 {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "s1" "s2" "s3";
+  background-color: aqua;
+  grid-template-columns: 23px auto;
+  grid-template-areas: "m1a m1b";
 }
-#model ul .square aside ul li {
-  display: flex;
+#model ul .square aside ul li .m1 .m1a {
+  grid-area: m1a;
 }
-#model ul .square aside ul li .s1 {
-  grid-area: s1;
+#model ul .square aside ul li .m1 .m1b {
+  grid-area: m1b;
 }
-#model ul .square aside ul li .s2 {
-  grid-area: s2;
+#model ul .square aside ul li .m2 {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: 23px auto;
+  grid-template-areas: "m1a m1b";
 }
-#model ul .square aside ul li .s3 {
-  grid-area: s3;
+#model ul .square aside ul li .m2 .m2a {
+  grid-area: m1a;
 }
-#model ul .square aside ul li li {
-  display: inline-block;
+#model ul .square aside ul li .m2 .m2b {
+  grid-area: m1b;
+}
+#model ul .square aside ul li .m3 {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: 23px auto;
+  grid-template-areas: "m1a m1b";
+}
+#model ul .square aside ul li .m3 .m3a {
+  grid-area: m1a;
+}
+#model ul .square aside ul li .m3 .m3b {
+  grid-area: m1b;
 }
