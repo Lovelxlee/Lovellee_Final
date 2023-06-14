@@ -54,6 +54,29 @@ grid-template-areas:
 .m2{
     grid-area: m2;
 
+
+
+
+
+    .rec{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-areas: none
+"";
+.kettle{
+grid-area: kettle;
+
+
+}
+.blender{
+    grid-area: blender;
+
+}
+
+.mixer{
+    grid-area: mixer;
+}
+    }
 }
 
 }

@@ -684,6 +684,21 @@ footer #f4 {
   gap: 32px;
   grid-template-areas: "f1" "f2" "f3" "f4" "f5";
 }
+#payment button {
+  height: 40px;
+}
+#payment .credit-button img {
+  height: 18px;
+  margin-top: 2px;
+}
+#payment .apple-button img {
+  height: 27px;
+  margin-top: -5px;
+}
+#payment .pal-button img {
+  margin-top: -2px;
+  height: 25px;
+}
 
 #payment2 {
   margin-top: 32px;
@@ -991,6 +1006,20 @@ footer #f4 {
   #message .m2 {
     grid-area: m2;
   }
+  #message .m2 .rec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: none "";
+  }
+  #message .m2 .rec .kettle {
+    grid-area: kettle;
+  }
+  #message .m2 .rec .blender {
+    grid-area: blender;
+  }
+  #message .m2 .rec .mixer {
+    grid-area: mixer;
+  }
 }
 
 #review {
@@ -1127,16 +1156,53 @@ footer #f4 {
 }
 
 #features {
-  margin-right: 16px;
-  margin-left: 16px;
+  margin-right: 135px;
+  margin-left: 135px;
   margin-bottom: 96px;
 }
 @media (min-width: 1024px) {
-  #features {
+  #features ul {
     display: grid;
-    background-color: aqua;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "f1 f2 f3" "f4 f5 f6";
+    grid-template-areas: "f1 f2 f6" "f4 f5 f3";
+    background-color: blue;
+  }
+  #features ul #f1 {
+    grid-area: f1;
+  }
+  #features ul #f2 {
+    grid-area: f2;
+  }
+  #features ul #f3 {
+    grid-area: f3;
+  }
+  #features ul #f4 {
+    grid-area: f4;
+  }
+  #features ul #f5 {
+    grid-area: f5;
+  }
+  #features ul #f6 {
+    grid-area: f6;
+  }
+  #features aside ul {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "r";
+  }
+  #features aside ul li {
+    margin-top: 8px;
+  }
+  #features aside ul li p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #features aside ul li .text {
+    grid-area: r;
+  }
+  #features aside ul li .text-left {
+    grid-area: t;
+    text-align: right;
   }
 }
 #features > div img {
@@ -1172,22 +1238,22 @@ footer #f4 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-#features > div ul .feature-card aside ul li .f1 {
+#features > div ul .feature-card aside ul li #f1 {
   grid-area: f1;
 }
-#features > div ul .feature-card aside ul li .f2 {
+#features > div ul .feature-card aside ul li #f2 {
   grid-area: f2;
 }
-#features > div ul .feature-card aside ul li .f3 {
+#features > div ul .feature-card aside ul li #f3 {
   grid-area: f3;
 }
-#features > div ul .feature-card aside ul li .f4 {
+#features > div ul .feature-card aside ul li #f4 {
   grid-area: f4;
 }
-#features > div ul .feature-card aside ul li .f5 {
+#features > div ul .feature-card aside ul li #f5 {
   grid-area: f5;
 }
-#features > div ul .feature-card aside ul li .f6 {
+#features > div ul .feature-card aside ul li #f6 {
   grid-area: f6;
 }
 #features > div ul .feature-card aside ul .text-left {

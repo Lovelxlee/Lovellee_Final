@@ -12,6 +12,30 @@ margin-top:150px;
         "f4"
         "f5";
 
+button{
+height: 40px;
+
+}
+        .credit-button{
+                img{
+                        height:18px;
+                        margin-top:2px;
+                }
+        }
+.apple-button{
+        img{
+                height:27px;
+                margin-top:-5px;
+        }
+}
+
+.pal-button{
+        img{
+                margin-top:-2px;
+                height:25px;
+        }
+
+}
 }
 
 #payment2{
@@ -51,6 +75,7 @@ margin-top:150px;
             display: grid;
             grid-template-columns: 50% auto;
             grid-template-areas: word price;
+            
             .price{
                 text-align: right;
         }
@@ -110,8 +135,6 @@ grid-area: p1;
         border-radius: 20px;
         position: sticky;
         top: 50px;
-// position:fixed;
-// width: 100%;
         padding-bottom:32px;
         margin-top: 96px;
 h1{

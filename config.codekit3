@@ -167,6 +167,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/example\/apple.png" : {
+      "ft" : 32768,
+      "iS" : 18029,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/apple.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/example\/blender.jpg" : {
       "ft" : 16384,
       "iS" : 14123,
@@ -178,6 +191,19 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/credit.png" : {
+      "ft" : 32768,
+      "iS" : 17619,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/credit.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/img\/example\/Ellipse 1.png" : {
@@ -505,6 +531,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/example\/pay.png" : {
+      "ft" : 32768,
+      "iS" : 19262,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/pay.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/example\/play.png" : {
       "ft" : 32768,
       "iS" : 3762,
@@ -613,19 +652,11 @@
       "oAP" : "\/dev\/content\/checkout\/payment.html",
       "oF" : 0
     },
-    "\/dev\/content\/message.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/message.html",
-      "oF" : 1
-    },
     "\/dev\/content\/product\/about.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/about.html",
       "oF" : 0
     },
@@ -633,7 +664,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/color.html",
       "oF" : 0
     },
@@ -641,7 +672,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/description.html",
       "oF" : 0
     },
@@ -649,7 +680,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/features.html",
       "oF" : 0
     },
@@ -657,7 +688,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/gallery.html",
       "oF" : 0
     },
@@ -665,7 +696,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/highlights.html",
       "oF" : 0
     },
@@ -673,7 +704,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/intro.html",
       "oF" : 0
     },
@@ -681,7 +712,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/model.html",
       "oF" : 0
     },
@@ -689,16 +720,24 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/reviews.html",
       "oF" : 0
     },
-    "\/dev\/content\/review.kit" : {
+    "\/dev\/content\/thank\/message.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/review.html",
+      "oAP" : "\/dev\/content\/thank\/message.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/thank\/review.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/thank\/review.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
