@@ -108,8 +108,10 @@ grid-area: p1;
         background-image: none;
         background-color: white;
         border-radius: 20px;
-
-
+        position: sticky;
+        top: 50px;
+// position:fixed;
+// width: 100%;
         padding-bottom:32px;
         margin-top: 96px;
 h1{

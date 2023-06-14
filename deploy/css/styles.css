@@ -759,6 +759,8 @@ footer #f4 {
     background-image: none;
     background-color: white;
     border-radius: 20px;
+    position: sticky;
+    top: 50px;
     padding-bottom: 32px;
     margin-top: 96px;
   }
