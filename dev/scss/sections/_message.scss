@@ -56,32 +56,62 @@ grid-template-areas:
 
 
 
+}
+
+}
+
+.m2{
+    grid-area: m2;
+
 
 
     .rec{
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-areas: none
-"";
-.kettle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "kettle blender mixer";
+margin-right: 0;
+padding-right: 0;
+
+#kettle{
 grid-area: kettle;
+background-image:  url("../img/example/kettle.jpg");
+background-size:cover;
+height: 16vh;
+width: 90%;
+border-radius: 20px;
+background-repeat: no-repeat;
+background-position: center center;
+p{
 
-
+    margin-top:30px;
 }
-.blender{
+}
+#blender{
     grid-area: blender;
+    background-image:  url("../img/example/blender.jpg");
+    background-size:cover;
+        height: 16vh;
+        width: 90%;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-position: center center;
 
 }
 
-.mixer{
+#mixer{
     grid-area: mixer;
+    background-image:  url("../img/example/mixer.jpg");
+    background-size:cover;
+        height: 16vh;
+        width: 90%;
+        border-radius: 20px;
+
+        background-repeat: no-repeat;
+        background-position: center center;
 }
     }
-}
 
 }
-
-
 
 
 
