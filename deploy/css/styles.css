@@ -748,21 +748,19 @@ footer #f4 {
   #desktop-payment #payment {
     grid-area: p1;
     background-color: white;
-  }
-}
-@media (min-width: 1024px) and (min-width: 1024px) {
-  #desktop-payment #payment {
     padding-left: 16px;
     padding-right: 16px;
+    margin-top: 96px;
+    padding-top: 32px;
+    margin-right: 0px;
   }
-}
-@media (min-width: 1024px) {
   #desktop-payment #payment2 {
     grid-area: p2;
     background-image: none;
     background-color: white;
     border-radius: 20px;
-    position: fixed;
+    padding-bottom: 32px;
+    margin-top: 96px;
   }
   #desktop-payment #payment2 h1 {
     color: black;
