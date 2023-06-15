@@ -887,6 +887,20 @@ footer #b4 {
   grid-template-columns: 50% auto;
   grid-template-areas: word price;
 }
+#payment2 .part1 .k {
+  display: grid;
+  grid-template-columns: 78px auto;
+  grid-template-areas: "pic info";
+}
+#payment2 .part1 .k .pic {
+  grid-area: pic;
+}
+#payment2 .part1 .k .info {
+  grid-area: info;
+}
+#payment2 .part1 .k img {
+  width: 70px;
+}
 #payment2 .part1 .summary {
   text-align: right;
 }

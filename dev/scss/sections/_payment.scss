@@ -131,6 +131,8 @@ padding-bottom: 96px;
         height: 65vh;
         color: white;
         background-color: black;
+
+  
         .bold{
                 font-weight: 600;
             }
@@ -143,8 +145,22 @@ padding-bottom: 96px;
         display: grid;
         grid-template-columns: 50% auto;
         grid-template-areas: word price;
-        
-  
+        .k{
+display: grid;
+grid-template-columns: 78px auto;
+grid-template-areas: "pic info";
+
+.pic{
+        grid-area: pic;
+}
+.info{
+        grid-area: info;
+}
+img{
+        width:70px;
+}
+        }
+
         .summary{
                 text-align: right;
         }
