@@ -889,7 +889,7 @@ footer #b4 {
 }
 #payment2 .part1 .k {
   display: grid;
-  grid-template-columns: 78px auto;
+  grid-template-columns: 78px 200px;
   grid-template-areas: "pic info";
 }
 #payment2 .part1 .k .pic {

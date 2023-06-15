@@ -147,7 +147,7 @@ padding-bottom: 96px;
         grid-template-areas: word price;
         .k{
 display: grid;
-grid-template-columns: 78px auto;
+grid-template-columns: 78px 200px;
 grid-template-areas: "pic info";
 
 .pic{
