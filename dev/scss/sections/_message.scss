@@ -51,12 +51,6 @@ grid-template-areas:
 
 }
 
-.m2{
-    grid-area: m2;
-
-
-
-}
 
 }
 
@@ -64,7 +58,10 @@ grid-template-areas:
     grid-area: m2;
 
 
-
+    p{
+        color: black;
+            margin-top:55px;
+        }
     .rec{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -79,10 +76,7 @@ width: 90%;
 border-radius: 20px;
 background-repeat: no-repeat;
 background-position: center center;
-p{
 
-    margin-top:30px;
-}
 }
 #blender{
     grid-area: blender;

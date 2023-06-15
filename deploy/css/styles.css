@@ -1092,12 +1092,13 @@ footer #f4 {
   #message .m1 {
     grid-area: m1;
   }
-  #message .m2 {
-    grid-area: m2;
-  }
 }
 #message .m2 {
   grid-area: m2;
+}
+#message .m2 p {
+  color: black;
+  margin-top: 55px;
 }
 #message .m2 .rec {
   display: grid;
@@ -1113,9 +1114,6 @@ footer #f4 {
   border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center center;
-}
-#message .m2 .rec #kettle p {
-  margin-top: 30px;
 }
 #message .m2 .rec #blender {
   grid-area: blender;
@@ -1204,8 +1202,8 @@ footer #f4 {
 @media (min-width: 1024px) {
   #review {
     grid-area: review;
-    margin-left: 373px;
-    margin-right: 373px;
+    margin-left: 20%;
+    margin-right: 20%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: ". review review .";
   }

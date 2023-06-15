@@ -644,14 +644,6 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 2
     },
-    "\/dev\/content\/checkout\/payment.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout\/payment.html",
-      "oF" : 0
-    },
     "\/dev\/content\/checkout\/payment.kit" : {
       "cB" : 0,
       "ft" : 2048,
