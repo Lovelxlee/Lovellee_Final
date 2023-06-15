@@ -16,7 +16,7 @@ input{
     align-items: center;
     justify-content: center;
     button{
-margin-bottom:0;
+margin-bottom:32px;
     }
 
 }
@@ -33,7 +33,7 @@ padding-right: 20%;
         margin-bottom: 32px;
         background-repeat: no-repeat;
         background-position: center center;
-
+        margin-bottom: 0px;
 
 @include lg{
     padding-left: 30%;
@@ -78,6 +78,7 @@ grid-template-areas:
             font-size: rem-calc(24);
         }
     .rec{
+        margin-top: 8px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "kettle blender mixer";

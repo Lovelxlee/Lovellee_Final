@@ -1162,7 +1162,7 @@ footer #f4 {
   justify-content: center;
 }
 #message .but button {
-  margin-bottom: 0;
+  margin-bottom: 32px;
 }
 #message .thank {
   margin-top: 32px;
@@ -1176,6 +1176,7 @@ footer #f4 {
   margin-bottom: 32px;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-bottom: 0px;
 }
 @media (min-width: 1024px) {
   #message .paragraph {
@@ -1208,6 +1209,7 @@ footer #f4 {
   font-size: 1.5rem;
 }
 #message .m2 .rec {
+  margin-top: 8px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "kettle blender mixer";
