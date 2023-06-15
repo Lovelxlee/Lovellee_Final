@@ -760,14 +760,56 @@ footer #f4 {
 #payment .f2 {
   grid-area: f2;
 }
+#payment .f2 .f2-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "f2a f2a f2a" "f2b f2b f2b" "f2c f2d f2d";
+}
+#payment .f2 .f2-container .f2a {
+  grid-area: f2a;
+}
+#payment .f2 .f2-container .f2b {
+  grid-area: f2b;
+}
+#payment .f2 .f2-container .f2c {
+  grid-area: f2c;
+  margin-right: 8px;
+}
+#payment .f2 .f2-container .f2d {
+  grid-area: f2d;
+}
 #payment .f3 {
   grid-area: f3;
 }
 #payment .f4 {
   grid-area: f4;
 }
+#payment .f4 .f4-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "f4a f4a f4a" "f4b f4b f4b" "f4c f4d f4d" "f4e f4e f4e";
+}
+#payment .f4 .f4-container .f4a {
+  grid-area: f4a;
+}
+#payment .f4 .f4-container .f4b {
+  grid-area: f4b;
+}
+#payment .f4 .f4-container .f4c {
+  grid-area: f4c;
+  margin-right: 8px;
+}
+#payment .f4 .f4-container .f4d {
+  grid-area: f4d;
+}
+#payment .f4 .f4-container .f4e {
+  grid-area: f4e;
+}
 #payment .f5 {
   grid-area: f5;
+}
+#payment input {
+  box-sizing: border-box;
 }
 #payment #desktop-button {
   display: grid;
@@ -809,6 +851,9 @@ footer #f4 {
   height: 40vh;
   color: white;
   background-color: black;
+}
+#payment2 .bold {
+  font-weight: 600;
 }
 #payment2 .part1 {
   background-color: white;
@@ -856,17 +901,20 @@ footer #f4 {
     display: grid;
     padding-left: 24px;
     padding-right: 24px;
-    margin-bottom: 0;
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas: ". p2 p2 p2 p2 p2 p2 . p1 p1 p1 p1";
   }
   #desktop-payment #payment {
     grid-area: p1;
     background-color: white;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 56px;
+    padding-right: 56px;
+    margin-top: 0;
     padding-top: 32px;
     margin-right: 0px;
+  }
+  #desktop-payment #payment h1 {
+    margin-top: 32px;
   }
   #desktop-payment #payment2 {
     grid-area: p2;
