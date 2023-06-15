@@ -845,10 +845,11 @@ footer #f4 {
   margin-top: 32px;
   padding-top: 32px;
   padding-left: 16px;
+  padding-bottom: 96px;
   background-image: url("../img/example/7Smeg.jpg");
   background-size: cover;
   background-position: center;
-  height: 40vh;
+  height: 65vh;
   color: white;
   background-color: black;
 }
@@ -921,6 +922,7 @@ footer #f4 {
     background-image: none;
     background-color: white;
     border-radius: 20px;
+    height: 40vh;
     position: sticky;
     top: 50px;
     padding-bottom: 0px;
@@ -939,6 +941,7 @@ footer #f4 {
 }
 .button-container .orange-button {
   grid-area: button;
+  margin-top: 24px;
 }
 
 #intro .video {
