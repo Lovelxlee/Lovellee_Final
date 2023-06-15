@@ -4,13 +4,30 @@ margin-top:150px;
         margin-right: 16px;
         display: grid;
 
-        gap: 32px;
+        // gap: 32px;
         grid-template-areas: 
         "f1"
         "f2"
         "f3"
         "f4"
         "f5";
+.f1{
+        grid-area: f1;
+
+}
+.f2{
+        grid-area: f2;
+}
+.f3{
+        grid-area: f3;
+}
+.f4{
+        grid-area: f4;
+}
+.f5{
+        grid-area: f5;
+}
+
 
 button{
 height: 40px;
@@ -122,7 +139,7 @@ grid-area: p1;
 
                 padding-left: 16px;
                 padding-right: 16px;
-                margin-top: 96px;
+
                 padding-top: 32px;
                 margin-right:0px;
 
