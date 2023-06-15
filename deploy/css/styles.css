@@ -1269,6 +1269,9 @@ footer #f4 {
   padding-left: 0;
   text-align: left;
 }
+#review .bold {
+  font-weight: 600;
+}
 #review .r {
   background-color: white;
   margin-top: 8px;
