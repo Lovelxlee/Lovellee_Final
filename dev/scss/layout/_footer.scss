@@ -3,7 +3,13 @@
 ============= */
 footer{
 
-
+p{
+    font-size: rem-calc(20);
+    font-weight: 400;
+    @include lg{
+        font-size: rem-calc(16);
+    }
+}
 
     background-color: var(--greydark);
     color: white;
@@ -15,6 +21,11 @@ img{
 a{
  color: white;
  text-decoration: none;
+ font-size: rem-calc(20);
+ font-weight: 400;
+ @include lg{
+    font-size: rem-calc(16);
+}
 }
 
 #f1{

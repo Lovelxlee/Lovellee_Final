@@ -28,7 +28,16 @@ font-weight:600;
             font-weight:600;
         }
     }
+h3{
+    font-size: rem-calc(20);
+    font-weight:400;
+    @include lg{
+        font-size: rem-calc(18);
+        font-weight:400;
+    }
 
+
+}
     h4{
         font-size: rem-calc(20);
         font-weight:600;
