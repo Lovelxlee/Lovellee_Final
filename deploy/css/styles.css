@@ -353,6 +353,39 @@ h1, h2, h3, h4, h5p {
   padding: 0;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+  }
+}
+
+h2 {
+  font-size: 1.625rem;
+  font-weight: 600;
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+@media (min-width: 1024px) {
+  h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+}
+
 /* =============
     Buttons
 ============= */

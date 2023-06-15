@@ -10,3 +10,32 @@ body{
         margin:0;
         padding:0;
     }
+
+    h1{
+        font-size: rem-calc(40);
+        font-weight:600;
+@include lg{
+    font-size: rem-calc(36);
+font-weight:600;
+}
+    }
+
+    h2{
+        font-size: rem-calc(26);
+        font-weight:600;
+        @include lg{
+            font-size: rem-calc(24);
+            font-weight:600;
+        }
+    }
+
+    h4{
+        font-size: rem-calc(20);
+        font-weight:600;
+        @include lg{
+            font-size: rem-calc(18);
+            font-weight:600;
+        }
+
+
+    }
