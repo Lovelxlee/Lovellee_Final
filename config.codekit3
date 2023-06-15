@@ -193,6 +193,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/example\/cart.jpg" : {
+      "ft" : 16384,
+      "iS" : 1474,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/cart.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/example\/cart.png" : {
+      "ft" : 32768,
+      "iS" : 1912,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/example\/cart.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/example\/credit.png" : {
       "ft" : 32768,
       "iS" : 17619,
@@ -206,11 +232,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 1.png" : {
+    "\/deploy\/img\/example\/Ellipse1.png" : {
       "ft" : 32768,
       "iS" : 6141,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 1.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse1.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -219,11 +245,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 2.png" : {
+    "\/deploy\/img\/example\/Ellipse2.png" : {
       "ft" : 32768,
       "iS" : 9836,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 2.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse2.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -232,11 +258,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 3.png" : {
+    "\/deploy\/img\/example\/Ellipse3.png" : {
       "ft" : 32768,
       "iS" : 10119,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 3.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -245,11 +271,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 4.png" : {
+    "\/deploy\/img\/example\/Ellipse4.png" : {
       "ft" : 32768,
       "iS" : 10129,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 4.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -258,11 +284,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 5.png" : {
+    "\/deploy\/img\/example\/Ellipse5.png" : {
       "ft" : 32768,
       "iS" : 2830,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 5.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -271,11 +297,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 6.png" : {
+    "\/deploy\/img\/example\/Ellipse6.png" : {
       "ft" : 32768,
       "iS" : 8818,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 6.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse6.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -284,11 +310,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 7.png" : {
+    "\/deploy\/img\/example\/Ellipse7.png" : {
       "ft" : 32768,
       "iS" : 9011,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 7.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse7.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -297,11 +323,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 8.png" : {
+    "\/deploy\/img\/example\/Ellipse8.png" : {
       "ft" : 32768,
       "iS" : 10119,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 8.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse8.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -310,11 +336,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 9.png" : {
+    "\/deploy\/img\/example\/Ellipse9.png" : {
       "ft" : 32768,
       "iS" : 10510,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 9.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse9.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -323,11 +349,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 10.png" : {
+    "\/deploy\/img\/example\/Ellipse10.png" : {
       "ft" : 32768,
       "iS" : 9763,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 10.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse10.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -336,11 +362,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 11.png" : {
+    "\/deploy\/img\/example\/Ellipse11.png" : {
       "ft" : 32768,
       "iS" : 9418,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 11.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse11.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -349,11 +375,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 12.png" : {
+    "\/deploy\/img\/example\/Ellipse12.png" : {
       "ft" : 32768,
       "iS" : 7588,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 12.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse12.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -362,11 +388,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 13.png" : {
+    "\/deploy\/img\/example\/Ellipse13.png" : {
       "ft" : 32768,
       "iS" : 10374,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 13.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse13.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -375,11 +401,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 14.png" : {
+    "\/deploy\/img\/example\/Ellipse14.png" : {
       "ft" : 32768,
       "iS" : 10376,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 14.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse14.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -388,11 +414,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 15.png" : {
+    "\/deploy\/img\/example\/Ellipse15.png" : {
       "ft" : 32768,
       "iS" : 20066,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 15.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse15.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -401,11 +427,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Ellipse 16.png" : {
+    "\/deploy\/img\/example\/Ellipse16.png" : {
       "ft" : 32768,
       "iS" : 21769,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Ellipse 16.png",
+      "oAP" : "\/deploy\/img\/example\/Ellipse16.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -557,11 +583,11 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/example\/Rectangle 1.png" : {
+    "\/deploy\/img\/example\/Rectangle1.png" : {
       "ft" : 32768,
       "iS" : 348,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/example\/Rectangle 1.png",
+      "oAP" : "\/deploy\/img\/example\/Rectangle1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

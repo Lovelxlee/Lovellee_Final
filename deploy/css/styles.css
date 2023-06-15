@@ -496,6 +496,13 @@ input {
   background-color: var(--grey);
 }
 
+a:link, a:visited {
+  color: var(--white);
+}
+a:link:hover, a:link:active, a:visited:hover, a:visited:active {
+  color: var(--black);
+}
+
 /* =============
     Forms
 ============= */
@@ -624,7 +631,18 @@ header #logo-nav #burger-container button {
 header #logo-nav nav {
   grid-area: nav;
 }
-header #search {
+header #logo-nav nav a {
+  font-size: 1.25rem;
+}
+header #logo-nav nav a img {
+  height: 50px;
+}
+@media (min-width: 1024px) {
+  header #logo-nav nav a img {
+    height: 43px;
+  }
+}
+header #logo-nav nav #search {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
@@ -632,37 +650,37 @@ header #search {
   padding: 16px 0;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
 }
-@media (min-width: 768px) {
-  header #search {
-    padding: 24px 0;
+@media (min-width: 1024px) {
+  header #logo-nav nav #search {
+    display: none;
   }
 }
-header #search > div {
+header #logo-nav nav #search > div {
   grid-area: search;
 }
-header #search > div form {
+header #logo-nav nav #search > div form {
   display: flex;
 }
-header #search > div form input {
+header #logo-nav nav #search > div form input {
   width: 100%;
   border: none;
   border-bottom: 1px solid var(--blueLight);
-  border-radius: 0 !important;
+  border-radius: 0px;
   background-color: white;
   margin-right: 8px;
 }
 @media (min-width: 768px) {
-  header #search > div form input {
+  header #logo-nav nav #search > div form input {
     font-size: 1.875rem;
     font-weight: 300;
   }
 }
 @media (min-width: 1200px) {
-  header #search > div form input {
+  header #logo-nav nav #search > div form input {
     font-size: 2.1875rem;
   }
 }
-header #search > div form button {
+header #logo-nav nav #search > div form button {
   background-color: var(--orange);
   border: 0;
   border-radius: 5px;
@@ -672,7 +690,7 @@ header #search > div form button {
   cursor: pointer;
   transition: 0.25s;
 }
-header #search > div form button:hover {
+header #logo-nav nav #search > div form button:hover {
   background-color: var(--yellowDark);
   color: var(--white);
 }
@@ -708,42 +726,42 @@ footer a {
     font-size: 1rem;
   }
 }
-footer #f1 {
-  grid-area: f1;
+footer #b1 {
+  grid-area: b1;
   padding-top: 32px;
   margin-bottom: 8px;
 }
-footer #f2 {
-  grid-area: f2;
+footer #b2 {
+  grid-area: b2;
 }
-footer #f2 li {
+footer #b2 li {
   margin-bottom: 24px;
 }
 @media (min-width: 1024px) {
-  footer #f2 li {
+  footer #b2 li {
     display: inline-block;
     margin-right: 10px;
   }
 }
-footer #f3 {
-  grid-area: f3;
+footer #b3 {
+  grid-area: b3;
   margin-top: 32px;
   margin-bottom: 32px;
 }
-footer #f3 li {
+footer #b3 li {
   display: inline-block;
   margin-right: 10px;
 }
-footer #f3 li a:link, footer #f3 li a:visited {
+footer #b3 li a:link, footer #b3 li a:visited {
   color: var(--orange);
   font-size: 1.875rem;
   transition: 0.25s;
 }
-footer #f3 li a:link:hover, footer #f3 li a:link:active, footer #f3 li a:visited:hover, footer #f3 li a:visited:active {
+footer #b3 li a:link:hover, footer #b3 li a:link:active, footer #b3 li a:visited:hover, footer #b3 li a:visited:active {
   color: var(--orange);
 }
-footer #f4 {
-  grid-area: f4;
+footer #b4 {
+  grid-area: b4;
   padding-bottom: 96px;
 }
 
@@ -900,6 +918,7 @@ footer #f4 {
     height: 200vh;
     grid-area: desktop-payment;
     display: grid;
+    padding-top: 104px;
     padding-left: 24px;
     padding-right: 24px;
     grid-template-columns: repeat(12, 1fr);
@@ -934,12 +953,17 @@ footer #f4 {
   }
 }
 
+.but2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 @media (min-width: 1024px) {
-  .button-container button {
+  .but2 button {
     display: none;
   }
 }
-.button-container .orange-button {
+.but2 .orange-button {
   grid-area: button;
   margin-top: 24px;
 }

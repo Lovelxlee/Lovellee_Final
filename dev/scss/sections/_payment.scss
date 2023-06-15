@@ -190,6 +190,7 @@ padding-bottom: 96px;
                 height: 200vh;
                 grid-area: desktop-payment;
 display: grid;
+padding-top: 104px;
 padding-left: 24px;
 padding-right: 24px;
 grid-template-columns: repeat(12, 1fr);
@@ -233,8 +234,10 @@ h1{
 
         }
 }
-.button-container{
-        
+.but2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
         @include lg{
                 button{
                         display: none;
