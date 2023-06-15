@@ -11,10 +11,11 @@ text-align: left;
 // text-align: center;
 margin-right: 16px;
 margin-left: 16px;
-margin-bottom: 96px;
+margin-bottom: 24px;
 @include lg{
     margin-right: 132px;
     margin-left: 132px;
+    margin-bottom: 40px;
     ul{
 
         display:grid;
@@ -177,6 +178,11 @@ grid-template-areas: "r";
     display: flex;
     align-items: center;
 margin-bottom: 96px;
+margin-top: 0;
+@include lg{
+    margin-bottom: 104px;
+
+}
         }
 // h1{
 // margin-bottom: 32px;

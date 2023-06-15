@@ -803,57 +803,69 @@ footer #f4 {
 #intro .video img {
   width: 120px;
 }
-#intro h1 {
+
+@media (min-width: 1024px) {
+  #pictures {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "top gal";
+    margin-left: 16%;
+    margin-right: 16%;
+  }
+  #pictures .gal {
+    grid-area: gal;
+    margin-top: 200px;
+  }
+}
+#pictures #top h1 {
   display: flex;
   align-items: center;
   margin-top: 96px;
   justify-content: center;
   margin-bottom: 32px;
 }
-#intro > div {
+#pictures #top > div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#intro > div .main {
+#pictures #top > div .main {
   height: 360px;
   margin-bottom: 32px;
 }
-
-#gal-title h2 {
+#pictures #gal-title h2 {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 0px;
   margin-bottom: 8px;
 }
-
-#gallery {
+#pictures #gallery {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 16px;
   margin-right: 16px;
 }
-#gallery img {
+#pictures #gallery img {
   width: 192px;
 }
-#gallery ul {
+#pictures #gallery ul {
   width: 100%;
   box-sizing: border-box;
 }
-#gallery ul .g1 {
+#pictures #gallery ul .g1 {
   display: flex;
   align-items: center;
 }
-#gallery ul .g1 aside {
+#pictures #gallery ul .g1 aside {
   width: 100%;
   box-sizing: border-box;
 }
-#gallery ul .g1 aside ul {
+#pictures #gallery ul .g1 aside ul {
   width: 100%;
 }
-#gallery ul .g1 aside ul li {
+#pictures #gallery ul .g1 aside ul li {
   display: flex;
   width: 100%;
   margin-top: 8px;
@@ -867,18 +879,22 @@ footer #f4 {
 #description p {
   margin-right: 42px;
   margin-left: 42px;
-  margin-bottom: 0px;
+  margin-bottom: 24px;
 }
 @media (min-width: 1024px) {
   #description p {
     margin-right: 30%;
     margin-left: 30%;
+    margin-bottom: 40px;
   }
 }
 #description .container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#description .container .orange-button {
+  margin-bottom: 32px;
 }
 #description .divide-line {
   height: 1px;
@@ -1307,12 +1323,13 @@ footer #f4 {
 #features {
   margin-right: 16px;
   margin-left: 16px;
-  margin-bottom: 96px;
+  margin-bottom: 24px;
 }
 @media (min-width: 1024px) {
   #features {
     margin-right: 132px;
     margin-left: 132px;
+    margin-bottom: 40px;
   }
   #features ul {
     display: grid;
@@ -1423,6 +1440,12 @@ footer #f4 {
   display: flex;
   align-items: center;
   margin-bottom: 96px;
+  margin-top: 0;
+}
+@media (min-width: 1024px) {
+  .orange-button {
+    margin-bottom: 104px;
+  }
 }
 
 #color {
