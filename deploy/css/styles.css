@@ -1141,6 +1141,11 @@ footer #f4 {
   margin-right: 16px;
   margin-top: 32px;
 }
+#review h1 {
+  margin-left: 0px;
+  padding-left: 0;
+  text-align: left;
+}
 #review .r {
   background-color: white;
   margin-top: 8px;
@@ -1148,7 +1153,23 @@ footer #f4 {
   color: black;
   display: grid;
   grid-template-columns: 50% auto;
-  grid-template-areas: title date;
+  grid-template-areas: "title date";
+  margin-left: 0px;
+  padding-left: 0;
+}
+#review .r .title {
+  grid-area: title;
+  margin-left: 0px;
+}
+#review .r .date {
+  grid-area: date;
+}
+@media (min-width: 1024px) {
+  #review .r h1 {
+    margin-left: 0px;
+    padding-left: 0;
+    text-align: left;
+  }
 }
 #review .r .date {
   text-align: right;
