@@ -1413,6 +1413,7 @@ footer #f4 {
 }
 @media (min-width: 1024px) {
   #color {
+    margin-left: 20%;
     grid-area: color;
     display: grid;
     grid-template-columns: "25% 50% 25%";
@@ -1505,6 +1506,11 @@ footer #f4 {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 32px;
+}
+@media (min-width: 1024px) {
+  #model {
+    margin-left: 20%;
+  }
 }
 #model img {
   width: 23px;
