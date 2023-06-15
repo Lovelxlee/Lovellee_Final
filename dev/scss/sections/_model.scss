@@ -2,6 +2,10 @@
 margin-left: 16px;
 margin-right: 16px;
 margin-bottom: 32px;
+p{
+    font-size: rem-calc(18);
+    font-weight: 400;
+}
 @include lg{
 margin-left: 20%;
 }

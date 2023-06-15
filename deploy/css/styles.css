@@ -1606,6 +1606,10 @@ footer #f4 {
   margin-right: 16px;
   margin-bottom: 32px;
 }
+#model p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
 @media (min-width: 1024px) {
   #model {
     margin-left: 20%;
