@@ -386,6 +386,17 @@ h4 {
   }
 }
 
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+}
+@media (min-width: 1024px) {
+  p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+}
+
 /* =============
     Buttons
 ============= */
@@ -1080,6 +1091,12 @@ footer #f4 {
   justify-content: center;
   margin-bottom: 32px;
 }
+@media (min-width: 1024px) {
+  #about h1 {
+    justify-content: left;
+    margin-left: 132px;
+  }
+}
 #about .clip {
   background-image: url("../img/example/1Smeg.jpg");
   background-size: cover;
@@ -1439,6 +1456,13 @@ footer #f4 {
 #features > div ul .feature-card aside ul li p {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+@media (min-width: 1024px) {
+  #features > div ul .feature-card aside ul li p {
+    font-size: 0.9375rem;
+  }
 }
 #features > div ul .feature-card aside ul li #f1 {
   grid-area: f1;

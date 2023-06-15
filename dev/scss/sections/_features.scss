@@ -125,6 +125,11 @@ grid-template-areas: "r";
                             p{
                                 margin-top: 0px;
                                 margin-bottom: 0px;
+                                font-size: rem-calc(12);
+                                font-weight: 600;
+                                @include lg{
+                                    font-size: rem-calc(15);
+                                }
                             }
 
                             #f1{

@@ -39,3 +39,12 @@ font-weight:600;
 
 
     }
+
+    p{
+        font-size: rem-calc(18);
+        font-weight:200;
+        @include lg{
+            font-size: rem-calc(16);
+            font-weight:200;
+        }
+    }
