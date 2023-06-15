@@ -79,6 +79,7 @@ grid-template-areas: "m1a m1b";
 .m1b{
 
     grid-area: m1b;
+    margin-left: 20px;
 }
 }
 .m2{
@@ -91,7 +92,7 @@ grid-template-areas: "m1a m1b";
         grid-area: m1a;
     }
     .m2b{
-    
+        margin-left: 20px;
         grid-area: m1b;
     }
 }
@@ -105,7 +106,7 @@ grid-template-areas: "m1a m1b";
             grid-area: m1a;
         }
         .m3b{
-        
+            margin-left: 20px;
             grid-area: m1b;
         }
 

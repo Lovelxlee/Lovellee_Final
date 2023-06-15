@@ -11,8 +11,8 @@ text-align: center;
 
 @include lg{
 display:grid;
-margin-right: 255px;
-margin-left: 255px;
+margin-right: 20%;
+margin-left: 20%;
 grid-template-columns: repeat(2,1fr);
 grid-template-areas: 
 "l1 l2"
