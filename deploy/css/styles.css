@@ -772,6 +772,9 @@ footer #b4 {
   display: grid;
   grid-template-areas: "f1" "f2" "f3" "f4" "f5";
 }
+#payment h1 {
+  margin-top: 32px;
+}
 #payment .f1 {
   grid-area: f1;
 }
